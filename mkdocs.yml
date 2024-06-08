@@ -1,0 +1,25 @@
+site_name:      翻儿Cloud 官方使用文档 
+
+theme:
+  name: material
+  language: zh  # 设置默认语言为中文
+
+nav:
+  - 📖 翻儿Cloud 官方地址: index.md
+  - 📲 苹果手机:
+      - shadowrocket使用教程: 苹果手机/shadowrocket.md 
+      - shadowrocket更新订阅教程: 苹果手机/iosgxdy.md
+  - 📘 安卓手机:
+      - Clash MetaForAndroid使用教程: 安卓手机/Clash-meta.md
+      - Clash.Meta更新订阅教程: 安卓手机/Clashgengxindy.md
+      - v2rayNG客户端: 安卓手机/v2rayNG.md
+  - 📚 MacBook苹果电脑:
+      - Installation: 苹果MacBook电脑/installation.md
+      - First Steps: 苹果MacBook电脑/first-steps.md
+  - 💻 Windows微软电脑:
+      - Clash Verge使用教程: Windows/ClashVerge.md
+      - Clash Verge更新订阅教程: Windows/gengxindingyue.md
+      - v2rayN 使用教程: Windows/v2rayN.md
+      - v2rayN 更新订阅教程: Windows/v2rayn-update.md
+
+
