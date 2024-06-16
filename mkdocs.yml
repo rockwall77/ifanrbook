@@ -7,15 +7,16 @@ theme:
 nav:
   - 📖 翻儿Cloud 官方地址: index.md
   - 📲 苹果手机:
-      - shadowrocket使用教程: 苹果手机/shadowrocket.md 
-      - shadowrocket更新订阅教程: 苹果手机/iosgxdy.md
+      - shadowrocket使用教程: iPhone/shadowrocket.md 
+      - shadowrocket更新订阅教程: iPhone/iosgxdy.md
   - 📘 安卓手机:
-      - Clash MetaForAndroid使用教程: 安卓手机/Clash-meta.md
-      - Clash.Meta更新订阅教程: 安卓手机/Clashgengxindy.md
-      - v2rayNG客户端: 安卓手机/v2rayNG.md
+      - Clash MetaForAndroid使用教程: Android/Clash-meta.md
+      - Clash.Meta更新订阅教程: Android/Clashgengxindy.md
+      - v2rayNG For Android使用教程: Android/v2rayNG.md
+      - v2rayNG 更新订阅教程: Android/v2rayng-update.md
   - 📚 MacBook苹果电脑:
-      - Installation: 苹果MacBook电脑/installation.md
-      - First Steps: 苹果MacBook电脑/first-steps.md
+      - clashX Pro使用教程: MacBook/clashXPro.md
+      - clashX Pro更新订阅教程: MacBook/clashXPro-update.md
   - 💻 Windows微软电脑:
       - Clash Verge使用教程: Windows/ClashVerge.md
       - Clash Verge更新订阅教程: Windows/gengxindingyue.md

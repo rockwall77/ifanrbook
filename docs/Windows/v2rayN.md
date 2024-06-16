@@ -1,5 +1,5 @@
 # v2rayN For windows电脑使用教程
-### 仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决!
+**仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决**
 
 <table><tr><td bgcolor=cyan><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
 
