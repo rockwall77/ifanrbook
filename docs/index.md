@@ -1,6 +1,16 @@
-# 翻儿CLoud文档教程
+
+# 🗺️**翻儿Cloud 官网地址**
+
+✅**点击访问永久发布页**  
+<a href="https://ifanrvpn.github.io" target="_blank">https://ifanrvpn.github.io</a>     
+<br>
+ **大陆用户请务必、务必、务必CTRL+D收藏此永久发布页,随时查看最新地址!**      
+ **保存好入口地址方便您第一时间找到 翻儿Cloud官方网址，谨防上单受骗。**      
 
 
-### ✅点击访问永久发布页    
-[https://ifanrvpn.github.io](https://ifanrvpn.github.io/) 
 
+<br>
+
+  🎯**温馨提示**
+
+请注意，中国防火墙会把魔法上网网站过滤，为方便用户购买和登录，我们会不断推出新官网地址，让用户不使用代理服务（V^P^N）也可以访问。

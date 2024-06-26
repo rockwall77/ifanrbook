@@ -147,3 +147,7 @@
 <br>
 
 ---
+
+你可以观看以下 YouTube 视频了解更多信息：
+(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lUFQA3OooBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
