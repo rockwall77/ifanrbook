@@ -1,0 +1,3 @@
+[submodule "ifanrbook"]
+    path = ifanrbook
+    url = https://github.com/rockwall77/ifanrbook.git
