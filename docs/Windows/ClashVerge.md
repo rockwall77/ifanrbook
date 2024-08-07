@@ -21,19 +21,20 @@
  
 ### 客户端下载  <br>   
 如果你不清楚你的电脑系统架构，请下载 <strong><font color = Orange>x64架构文件</font></strong>（目前多数 Windows 电脑使用该架构）
-（以下链接提供 Clash.Verge_1.6.2 版本的安装包）
+（以下链接提供 Clash.Verge_1.7.5 版本的安装包）
  ---
  
 <strong>
- ClashVerge国内下载:<a href="https://www.miaofile.com/s/z7NlHz">  --->点击下载</a> (x64-setup.exe)     
+ ClashVerge国内下载:<a href="https://www.miaofile.com/s/Z4OqTe">  --->点击下载</a> (x64-setup.exe)     
 <br>
-ClashVerge国内备用下载:   --->[点击下载](https://wwv.lanzouh.com/ilL3v1yricmf"最好用的教程文档")  (x64-setup.exe)   
+ClashVerge国内备用下载:   --->[点击下载](https://wwv.lanzouh.com/i6CPh24v1xre"最好用的教程文档")  (x64-setup.exe)   
 <br> 
-ClashVerge国内备用2下载: --->[点击下载](https://wwv.lanzouh.com/iUiX31ysn1ud)(x64-setup.exe) 
+ClashVerge国内备用2下载: --->[点击下载](https://www.miaofile.com/s/JeKOTG)(x64-setup.exe) 
 <br>     
-ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/iz8eC1yrjhla)（32位系统-x86-setup.exe）    
+ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/i31Zv24v283g
+)（32位系统-x86-setup.exe）    
 <br>
-Clash Verge国内下载:--->[点击下载](https://wwv.lanzouh.com/ipD2Q1ysmx8h)（ Arm芯片: arm64-setup.exe）     
+Clash Verge国内下载:--->[点击下载](https://www.miaofile.com/s/9bnmc8)（ Arm芯片: arm64-setup.exe）     
 <br>
 更多版本请前往官方github发布页下载:  
 [https://github.com/clash-verge-rev/clash-verge-rev/releases](https://github.com/clash-verge-rev/clash-verge-rev/releases)

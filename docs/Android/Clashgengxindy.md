@@ -14,7 +14,7 @@
 
 >更新订阅
 
-打开「**配置**」栏，点击配置文件后面的「**三束点**」并选择「**更新**」即可成功更新订阅小火箭节点。
+打开「**配置**」栏，点击配置文件后面的「**三束点**」并选择「**更新**」即可 更新订阅。
 
   <img src="  https://ml6g0byafwek.i.optimole.com/co-ZpyQ-fOe9BfS5/w:auto/h:auto/q:auto/id:116dec574522446fc902405e9f44f9f3/directUpload/5月31日-41.gif" loop="true" autoplay="true">     
 
