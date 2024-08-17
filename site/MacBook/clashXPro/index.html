@@ -1,0 +1,1173 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Android/v2rayng-update/">
+      
+      
+        <link rel="next" href="../clashXPro-update/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
+    
+    
+      
+        <title>clashX Pro使用教程 - 翻儿Cloud 官方使用文档</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#clashx-pro" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="翻儿Cloud 官方使用文档" class="md-header__button md-logo" aria-label="翻儿Cloud 官方使用文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            翻儿Cloud 官方使用文档
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              clashX Pro使用教程
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="翻儿Cloud 官方使用文档" class="md-nav__button md-logo" aria-label="翻儿Cloud 官方使用文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    翻儿Cloud 官方使用文档
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📖 翻儿Cloud 官方地址
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📲 苹果手机
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            📲 苹果手机
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../iPhone/shadowrocket/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    shadowrocket使用教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../iPhone/iosgxdy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    shadowrocket更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📘 安卓手机
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            📘 安卓手机
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/Clash-meta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clash MetaForAndroid使用教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/Clashgengxindy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clash.Meta更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/v2rayNG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v2rayNG For Android使用教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/v2rayng-update/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v2rayNG 更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📚 MacBook苹果电脑
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            📚 MacBook苹果电脑
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    clashX Pro使用教程
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    clashX Pro使用教程
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#clashx-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClashX Pro下载
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clashx-pro_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      clashX Pro安装
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="clashX Pro安装">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clashx-pro_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClashX Pro导入订阅
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clashx-pro_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClashX Pro配置策略组
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      设置为系统代理 &amp; 增强模式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="设置为系统代理 & 增强模式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      出站模式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="出站模式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ 使用建议
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clashXPro-update/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    clashX Pro更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clashverge/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    clashverge使用教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clashverge-uodate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    clashverge更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    💻 Windows微软电脑
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            💻 Windows微软电脑
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Windows/ClashVerge/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clash Verge使用教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Windows/gengxindingyue/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clash Verge更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Windows/v2rayN/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v2rayN 使用教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Windows/v2rayn-update/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v2rayN 更新订阅教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📶 路由器插件配置
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            📶 路由器插件配置
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Router/helloworld/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Helloworld 科学上网教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Router/Merlinclash/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MerlinClash 小猫咪教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#clashx-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClashX Pro下载
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clashx-pro_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      clashX Pro安装
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="clashX Pro安装">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clashx-pro_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClashX Pro导入订阅
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clashx-pro_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClashX Pro配置策略组
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      设置为系统代理 &amp; 增强模式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="设置为系统代理 & 增强模式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      出站模式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="出站模式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ 使用建议
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>clashX Pro使用教程</h1>
+
+<p><strong>仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决!</strong></p>
+<table><tr><td bgcolor=cyan><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
+
+<p>✅浏览器访问 time.is 检查设备时间是否与北京时间同步  <br />
+ ✅ 我的 翻儿Cloud 会员没有过期   <br />
+ ✅设备中没有开启其他VPN类软件  <br />
+ ✅我的网络不是校园网或者公司内网    <br />
+<br>    </p>
+<blockquote>
+<p>⚠️ 温馨提示   <br />
+再次确认你的设备环境是否满足以上条件，检查无误后继续查看使用教程。 </p>
+</blockquote>
+<hr />
+<p><br></p>
+<p>ClashX Pro是MacOS系统即苹果电脑系统下的代理软件客户端，是代理工具Clash在MacOS系统的图形客户端，功能强大且支持多种代理协议。</p>
+<h3 id="clashx-pro">ClashX Pro下载     <br></h3>
+<p>目前GitHub仓库地址均已删库且不再更新维护,但不影响继续使用!!可在本页面下载备份最新版</p>
+<hr />
+<ul>
+<li>以下链接提供 Clash_X.Pro.v1.118.1 的安装包    <br />
+  「<strong>该客户端仅支持Mac OS 10以上系统，确保你的系统版本高于10.0</strong>」 <br />
+ <br>
+ <strong>
+ clashX Pro苹果电脑客户端国内网络下载:<a href="https://wwv.lanzouh.com/ih7AX21t1tjc" "MacOS系统最好用的代理">  ---&gt;点击下载</a>    <br />
+ <br> 
+ clashX Pro苹果电脑客户端国内网络备用下载:<a href="https://www.miaofile.com/s/GBrNu1" "MacOS系统最好用的代理">  ---&gt;点击下载</a><br />
+ <br>
+ 
+<video width="640" height="360" controls>
+  <source src=" https://doc.sev7en.blog/wp-content/uploads/2024/06/6%E6%9C%8814%E6%97%A5.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></li>
+</ul>
+<p><strong><font color = Orange>「自行检查Macbook Air版本是不是10.0以上」</font></strong>
+<br>     </p>
+<hr />
+<p><br>
+<br></p>
+<h2 id="clashx-pro_1">clashX Pro安装</h2>
+<ul>
+<li>把 ClashX.app 拖拽到Applications文件夹当中，就算完成了安装工作，如下图所示。</li>
+<li>在启动台里面找到ClashX Pro，然后打开它，如果系统提示不安全，无法打开，我们需要打开一个开启所有来源的开关，具体看教程 <a href="https://jingyan.baidu.com/article/0320e2c12083275a87507bab.html">开启所有来源教程</a></li>
+<li>打开启动台，找到软件图标，单击启动软件。首次打开的时候会有安全提示，点击【打开】继续</li>
+</ul>
+<p><br></p>
+<p><img src=" https://ml6g0byafwek.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/https://doc.sev7en.blog/wp-content/uploads/2024/06/6142-ezgif.com-video-to-gif-converter.gif" loop="true" autoplay="true">
+  <br>     </p>
+<hr />
+<p><br>
+<br></p>
+<h3 id="clashx-pro_2">ClashX Pro导入订阅</h3>
+<blockquote>
+<p>方式一, 一键自动导入     </p>
+</blockquote>
+<ol>
+<li>浏览器登录进入 <strong><a href="https://zifanr.net/auth/register?code=freedom">翻儿Cloud官网</a> 「首页」</strong>右下角点击  <strong>[手动复制ClashX订阅地址]</strong>，如果您忘记了翻儿Cloud官网地址可前往地址发布页 <a href="https://ifanrvpn.github.io/">点击前往</a> 找到最新的官网地址。</li>
+<li>点击「一键导入 Clash(X) 配置文件」按钮 后会自动提示跳转到 ClashX Pro客户端，根据提示点击「打开ClashXPro」，此时ClashX客户端中会出现并已选择导入的配置文件。</li>
+</ol>
+<p><br></p>
+<p><img src="https://ml6g0byafwek.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/https://doc.sev7en.blog/wp-content/uploads/2024/06/6143-ezgif.com-video-to-gif-converter.gif" loop="true" autoplay="true"></p>
+<p><br></p>
+<p><br></p>
+<blockquote>
+<p>方式二 手动下载导入     <br></p>
+</blockquote>
+<ol>
+<li>
+<p>浏览器登录进入 <strong><a href="https://zifanr.net/auth/register?code=freedom">翻儿Cloud官网</a> 「首页」</strong>右下角点击  <strong>[手动复制ClashX订阅地址]</strong>，如果您忘记了翻儿Cloud官网地址可前往地址发布页 <a href="https://ifanrvpn.github.io/">点击前往</a> 找到最新的官网地址。</p>
+</li>
+<li>
+<p>点击状态栏中的小猫咪软件图标，打开主菜单-&gt; 配置 -&gt; 托管配置 -&gt; 管理-&gt;添加 配置文件</p>
+</li>
+<li>URL处粘贴刚网站上复制的ClashX订阅地址，在 Config Name 填写配置文件名称，比如 翻儿Cloud 点击确定即可完成订阅的添加.</li>
+</ol>
+<p><br></p>
+<p><img src="  https://ml6g0byafwek.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/https://doc.sev7en.blog/wp-content/uploads/2024/06/6144-ezgif.com-video-to-gif-converter-2.gif" loop="true" autoplay="true"></p>
+<p><br>     </p>
+<hr />
+<p><br>
+<br></p>
+<h2 id="clashx-pro_3">ClashX Pro配置策略组</h2>
+<ul>
+<li>点击ClashX Pro图标，主菜单往下滑进去【控制台】便可根据自己的需求配置策略组走指定的地区节点。</li>
+</ul>
+<p><br></p>
+<p><img src=" https://ml6g0byafwek.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/https://doc.sev7en.blog/wp-content/uploads/2024/06/61441-ezgif.com-video-to-gif-converter.gif" loop="true" autoplay="true"></p>
+<p><br>     </p>
+<hr />
+<p><br>
+<br></p>
+<h2 id="_1">设置为系统代理 &amp; 增强模式</h2>
+<blockquote>
+<p>更新订阅     <br></p>
+</blockquote>
+<ol>
+<li>
+<p>点击ClashX Pro猫咪图标，打开主菜单--&gt;配置--&gt;托管配置--&gt;更新/便可更新订阅~~
+（勾选自动更新，设置更新间隔72小时）   </p>
+</li>
+<li>
+<p>打开【主菜单】 -&gt;勾选【设置为系统代理】以及【增强模式】即启动ClashX Pro代理，现在可以开始上网冲浪了。</p>
+</li>
+</ol>
+<p><img src="https://ml6g0byafwek.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/https://doc.sev7en.blog/wp-content/uploads/2024/06/61431-ezgif.com-video-to-gif-converter.gif" loop="true" autoplay="true"></p>
+<p><br>
+<strong><font color = Orange>「如果默认的分流模式您无法正常使用，选择尝试启用GLOBAL【全局模式】」</font></strong>
+<br>     </p>
+<hr />
+<p><br>
+<br></p>
+<h3 id="_2">出站模式    <br></h3>
+<p>点击ClashX pro小猫咪图标，打开【主菜单】 -&gt;【出站模式】，即可选择出站模式，软件一共有四种出站模式，分别是全局连接、规则判断、脚本模式、直接连接。</p>
+<p>全局连接：所有请求直接发往代理服务器    <br />
+规则判断：所有请求根据配置文件规则进行分流    <br />
+脚本模式：所有请求根据脚本文件规则进行分流   <br />
+直连连接：所有请求直接发往目的地，即不使用代理     </p>
+<p><br></p>
+<h4 id="_3">⚠️ 使用建议</h4>
+<table><tr><td bgcolor=violet><font face="楷书"  size=3> 订阅地址是你个人账号密码及节点的总集成，不能泄露给任何人及网络，以防止他人使用及知晓你的密码。
+建议定期手动更新或者设置成启动时自动更新订阅，即可保持与服务器同步更新。</font></td></tr></table>
+
+<p><br></p>
+<hr />
+<p>你可以观看以下 YouTube 视频了解更多信息：
+(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lUFQA3OooBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
+      
+    
+  </body>
+</html>
