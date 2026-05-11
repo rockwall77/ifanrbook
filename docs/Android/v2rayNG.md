@@ -4,7 +4,7 @@
 <table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
 
  ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
- ✅ 我的 翻儿Cloud 会员没有过期     
+ ✅我的 翻儿Cloud 会员没有过期     
  ✅设备中没有开启其他VPN类软件    
  ✅我的网络不是校园网或者公司内网      
 <br>    
@@ -70,7 +70,7 @@
  <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/v2-updateSUB.gif" loop="true" autoplay="true">
 
 友情提示：
-<table><tr><td bgcolor=cyan><font face="楷书"  size=4>
+<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4>
 如更新订阅失败或发生错误，请使用4G/5G网络尝试.</font></td></tr></table>
 
 ---
