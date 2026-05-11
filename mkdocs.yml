@@ -1,4 +1,5 @@
 site_name:      翻儿Cloud 官方使用文档 
+site_url:       https://example.com # 请替换为您的网站域名
 
 theme:
   name: material
@@ -7,6 +8,8 @@ theme:
     - navigation.expand
     - navigation.top
     - toc.follow
+    - navigation.instant
+    - navigation.tabs
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -22,6 +25,7 @@ theme:
 
 plugins:
   - search
+  - optimize
 
 markdown_extensions:
   - toc:

@@ -1,6 +1,7 @@
 .aider*
 # MkDocs
 site/
+.cache/
 
 # macOS
 .DS_Store
