@@ -5,6 +5,27 @@ theme:
   language: zh  # 设置默认语言为中文
   features:
     - navigation.expand
+    - navigation.top
+    - toc.follow
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
 
 nav:
   - 📖 翻儿Cloud 官方地址: index.md
@@ -31,6 +52,6 @@ nav:
       - v2rayN 使用教程: Windows/v2rayN.md
       - v2rayN 更新订阅教程: Windows/v2rayn-update.md
   -   📶 路由器插件配置:
-      - Helloworld 科学上网教程: Router\helloworld.md
-      - MerlinClash 小猫咪教程: Router\Merlinclash.md
+      - Helloworld 科学上网教程: Router/helloworld.md
+      - MerlinClash 小猫咪教程: Router/Merlinclash.md
 
