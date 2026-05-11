@@ -1,5 +1,4 @@
-
-<table><tr><td bgcolor=cyan><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
+<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
 
  ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
  ✅我的 翻儿Cloud 会员没有过期     
@@ -156,8 +155,8 @@
 
   <br>
   1. 进入 **『更新管理』**页面，点击 **『保存并订阅』**便可重新下载订阅（更新订阅）
-  
-  ---
+
+---
 
   - **如更新订阅失败或显示错误无法更新订阅**
 
