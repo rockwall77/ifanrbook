@@ -3,6 +3,8 @@ site_name:      翻儿Cloud 官方使用文档
 theme:
   name: material
   language: zh  # 设置默认语言为中文
+  features:
+    - navigation.expand
 
 nav:
   - 📖 翻儿Cloud 官方地址: index.md
