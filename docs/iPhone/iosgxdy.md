@@ -1,5 +1,6 @@
-#### 翻儿Cloud会根据不同情况定期对节点进行维护，如发现节点不可用请及时更新订阅。     
+<table><tr><td bgcolor=FFB6C1><font face="楷书" size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
 
+ ✅浏览器访问 time.is 检查设备时间是否与北京时间同步
  ✅ 我的 翻儿Cloud 会员没有过期     
  ✅设备中没有开启其他VPN类软件    
  ✅我的网络不是校园网或者公司内网 
@@ -26,7 +27,7 @@
 #### ⚠️ 更新失败如何操作 !?  <br>
 
 
-<table><tr><td bgcolor=cyan><font face="楷书"  size=4>  如出现更新失败或错误,可能是订阅域名被大陆网络阻断了，请打开shadowrocket开关连接翻墙过去再尝试 更新订阅。</font></td></tr></table>
+<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4>  如出现更新失败或错误,可能是订阅域名被大陆网络阻断了，请打开shadowrocket开关连接翻墙过去再尝试 更新订阅。</font></td></tr></table>
 
 ---
 <br>

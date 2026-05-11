@@ -1,6 +1,6 @@
 **仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决!**
 
-<table><tr><td bgcolor=cyan><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
+<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
 
  ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
  ✅ 我的 翻儿Cloud 会员没有过期     
