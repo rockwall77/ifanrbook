@@ -45,9 +45,8 @@ extra:
 #      lang: ko
 
   analytics:
-    # 请将 'G-XXXXXXXXXX' 替换为您的 Google Analytics 4 Measurement ID
     provider: google
-    property: G-XXXXXXXXXX
+    property: G-4SDNG6TFD0
 
 plugins:
   - search:
@@ -56,7 +55,9 @@ plugins:
         - ja
         - zh
       # 注意：Material for MkDocs 的搜索插件目前不支持韩语（ko），多语言搜索将对韩语无效。
+  - privacy
   - optimize
+  - minify
 
 markdown_extensions:
   - toc:
