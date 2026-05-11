@@ -18,12 +18,12 @@
 <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/clashvergeicon.png" width="307" height="320"><br>
 
 <br>
- 
+
 ### 客户端下载  <br>   
 如果你不清楚你的电脑系统架构，请下载 <strong><font color = Orange>x64架构文件</font></strong>（目前多数 Windows 电脑使用该架构）
 （以下链接提供 Clash.Verge_2.0.3 版本的安装包）
  ---
- 
+
 <strong>
  ClashVerge国内下载:<a href="https://wwtr.lanzouw.com/b00rn1mkyj">  --->点击下载</a>    
 全平台 科 学 软 件 客户端备用下载:   --->[不止客户端下载](https://myfile.sev7.xyz)    
@@ -106,7 +106,7 @@ ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/i31Zv24v283g
 </video>
 <br>
 
- 
+
 <font face="楷书" color=red size=4> 温馨提示</font>    
 同样可以点击旁边的 [新建] 新建订阅-类型选择[ Local ] 选择文件就是刚刚下载的后缀为 「.yaml」 的文件。
 
@@ -119,7 +119,7 @@ ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/i31Zv24v283g
 
 
 ### 开启系统代理      
- 
+
  1. Clash Verge**设置**界面上，找到系统设置栏，点击“系统代理”按钮，即可启动系统代理。      
  2. **订阅**页面选中已导入配置文件.yaml格式       
  3. **代理** 页面选择线路节点（选择规则或全局模式）根据自己的需求配置策略组即可。
@@ -146,7 +146,7 @@ ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/i31Zv24v283g
 ### 设置TUN模式    
 如果要开启先点击 服务模式旁边的盾牌图标 点击INSTALLl安装，开启后会生成虚拟网卡，使所有流量都通过代理。       
   **_Tun模式与系统代理二选一_**
-  
+
   <br>
 
  <video width="840" height="460" controls>
@@ -155,7 +155,7 @@ ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/i31Zv24v283g
 <br>
 
 -----
- 
+
 通过以上简单的教程，您现在已经可以使用ClashVerge来实现网络自由了。
 
 <br>
