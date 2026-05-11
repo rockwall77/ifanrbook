@@ -30,19 +30,19 @@ theme:
         name: 切换到浅色模式
 
 extra:
-  alternate:
-    - name: 中文（简体）
-      link: /
-      lang: zh
-    - name: English
-      link: /en/
-      lang: en
-    - name: 日本語
-      link: /ja/
-      lang: ja
-    - name: 한국어
-      link: /kr/
-      lang: ko
+#  alternate:
+#    - name: 中文（简体）
+#      link: /
+#      lang: zh
+#    - name: English
+#      link: /en/
+#      lang: en
+#    - name: 日本語
+#      link: /ja/
+#      lang: ja
+#    - name: 한국어
+#      link: /kr/
+#      lang: ko
 
   analytics:
     # 请将 'G-XXXXXXXXXX' 替换为您的 Google Analytics 4 Measurement ID
