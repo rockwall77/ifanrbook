@@ -1,178 +1,132 @@
-# Clash Verge-re电脑使用教程<br>
-**仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决**
-
-<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
-
-- ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
-- ✅我的 翻儿Cloud 会员没有过期     
-- ✅设备中没有开启其他VPN类软件    
-- ✅我的网络不是校园网或者公司内网      
-<br>    
-
-> ⚠️ 温馨提示     
-> 再次确认你的设备环境是否满足以上条件，检查无误后继续查看使用教程。 
 ---
-<br>
+title: Clash Verge-Rev for Windows 详细使用教程与配置指南
+description: 2026年最新翻儿Cloud Clash Verge-Rev 客户端下载、安装、一键订阅配置、代理设置及 TUN 模式开启的保姆级图文视频教程。
+keywords: [Clash Verge, Clash Verge-Rev, Windows科学上网, 翻儿Cloud, TUN模式, 代理设置, 一键导入]
+---
 
+# 💻 Clash Verge-Rev For Windows 使用指南 (2026 版)
 
-<img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/clashvergeicon.png" width="307" height="320"><br>
+!!! warning "开始前必读（防错检查）"
+    为了确保网络连接质量，在配置前请务必确认以下环境：
 
-<br>
-
-### 客户端下载  <br>   
-如果你不清楚你的电脑系统架构，请下载 <strong><font color = Orange>x64架构文件</font></strong>（目前多数 Windows 电脑使用该架构）
-（以下链接提供 Clash.Verge_2.0.3 版本的安装包）
- ---
-
-<strong>
- ClashVerge国内下载:<a href="https://wwtr.lanzouw.com/b00rn1mkyj">  --->点击下载</a>    
-全平台 科 学 软 件 客户端备用下载:   --->[不止客户端下载](https://myfile.sev7.xyz)    
-ClashVerge国内下载: --->[点击下载](https://wwv.lanzouh.com/i31Zv24v283g
-)（32位系统-x86-setup.exe）    
-<br>
-更多版本请前往官方github发布页下载:  
-[https://github.com/clash-verge-rev/clash-verge-rev/releases](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-</strong>
+    - ✅ 浏览器访问 [time.is](https://time.is) 检查**设备本地时间**是否与北京时间完全同步。
+    - ✅ 请卸载或彻底关闭系统内的**其他 VPN 或代理软件**，避免端口冲突。
+    - ✅ 请确保您的网络环境**非严格限制的公司/校园内网**。
 
 ---
-<br>
 
-## 解压安装
- - 安装客户端
+## 📥 1. 客户端下载
 
-将下载好的压缩包直接解压到电脑内某目录，打开该目录「 Clash.Verge 」安装运行并在弹出的提示提示框中点击「是」继续即可。     
+请根据您的网络环境，选择最适合的下载渠道：
 
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/install%20client.mp4" type="video/mp4">
-</video>
-<br>
+=== "⚡ 国内极速下载 (推荐)"
 
+    适合无法访问外网的新用户。
+    👉 **[点击下载 Clash Verge-Rev (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/Clash-Verge)**
 
-------
+=== "🐙 官方 GitHub 下载"
 
+    适合已经拥有外网环境，希望获取官方原版的用户。
+    👉 **[点击访问最新 Release 版本下载](https://github.com/clash-verge-rev/clash-verge-rev/releases)**
 
+---
 
-### 导入订阅链接
- -  方式一 一键自动导入    <br>
+## ⚙️ 2. 安装与启动
 
-  使用浏览器登录 **[翻儿Cloud官网](https://zifanr.net/)  – 「首页」** 右下角 点击 **「一键导入 Clash(X) 配置文件」** 按钮 后会自动提示跳转到 Clash客户端，根据提示打开「Clash Verge for Windows」，此时 Clash Verge客户端中会出现导入的配置文件，点击选中配置文件即可。    
+1. 将下载的安装包解压，或直接运行安装程序。
+2. 安装完成后，**右键点击**图标选择 **「以管理员身份运行」**。
+3. 首次启动时，程序可能需要安装虚拟网卡驱动，请点击「是」或「确认」以授予权限。
 
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/clash.V.copy%20subscribe%20into%20clinet.mp4" type="video/mp4">
-</video>
-<br>
+??? tip "▶️ 点击展开：安装与启动操作演示视频"
+    <video width="100%" controls referrerpolicy="no-referrer" preload="metadata">
+      <source src="https://itsmyimg.sev7.xyz/i26pic/clashv-install-client.mp4" type="video/mp4">
+    </video>
 
- >
-<font face="楷书" color=red size=4> 温馨提示</font>     
-如果自动导入订阅失败「 订阅」栏内没有出现「.yaml」结尾的小火箭配置文件，请参考 
-方式二 手动下载 方式或 方式三 手动导入 方式。
->     
+---
 
- 
+## 🔗 3. 导入订阅配置
 
-------
-<br>
-<br>
+=== "🚀 方法一：一键自动导入 (强烈推荐)"
 
-
-
-
- - 方式二 手动下载导入  
-
- <br>
-
-  1. 浏览器登录进入 **[翻儿Cloud官网](https://zifanr.net/) 「首页」**右下角点击  **[手动复制ClashX订阅地址]**，如果您忘记了翻儿Cloud官网地址可前往地址发布页 [点击前往](https://ifanrvpn.github.io/) 找到最新的官网地址。
-
- 2. 客户端 “订阅” 页面中的输入框中填入自己的Clash订阅链接地址即可- 点击 **[导入]** 代理配置文件。    
-
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/Manual%20import%20sub.mp4" type="video/mp4">
-</video>
-<br>
---------
-<br>
-<br>
-
- - 方式三 手动甩进去   
-
- <br>
-
- 1. 览器登录进入 **[翻儿Cloud官网](https://zifanr.net/) 「首页」**右下角点击  **[手动复制ClashX订阅地址]**  将复制的地址从浏览器中打开，此时会自动下载一个后缀为 **「.yaml」**的配置文件。
- 2. 客户端的 **「订阅」**页面，选择刚刚下载后缀为 **「.yaml」**的配置文件把文件拖拽进去即可。此时 ClashVerge客户端中订阅页面会出现翻儿CLoud的配置文件。
+    1. 登录 **[翻儿Cloud 官网](https://zifanr.net/)**，在首页右下角点击 **「一键导入 Clash 配置文件」**。
+    2. 浏览器会提示“是否跳转至 Clash Verge”，根据提示确认打开即可。
+    3. 导入后，在客户端的 **「订阅」** 栏中选中对应的配置文件（选中后会有变色提示）。
     
+    ??? tip "▶️ 点击展开：一键导入演示视频"
+        <video width="100%" controls referrerpolicy="no-referrer" preload="metadata">
+          <source src="https://itsmyimg.sev7.xyz/i26pic/clashv-subscribe-clinet.mp4" type="video/mp4">
+        </video>
 
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/local%20import%20sub.mp4" type="video/mp4">
-</video>
-<br>
+=== "📝 方法二：手动复制导入"
 
-
-<font face="楷书" color=red size=4> 温馨提示</font>    
-同样可以点击旁边的 [新建] 新建订阅-类型选择[ Local ] 选择文件就是刚刚下载的后缀为 「.yaml」 的文件。
-
-
-
-------------
-<br>
-<br>
-
-
-
-### 开启系统代理      
-
- 1. Clash Verge**设置**界面上，找到系统设置栏，点击“系统代理”按钮，即可启动系统代理。      
- 2. **订阅**页面选中已导入配置文件.yaml格式       
- 3. **代理** 页面选择线路节点（选择规则或全局模式）根据自己的需求配置策略组即可。
-
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/start%20client.mp4" type="video/mp4">
-</video>
-<br>
-
------------
-
-代理模式
-
- - 全局（Global）：所有请求直接发往代理服务器
- - 规则（Rule）：所有请求根据配置文件规则进行分流
- - 直连（ Direct ）：所有请求直接发往目的地（等于没开代理服务）     
-
-
-
-<br>
+    1. 浏览器登录进入 **[翻儿Cloud 官网](https://zifanr.net/)**，在「首页」右下角点击 **「手动复制 ClashX 订阅地址」**。
+       *(💡 若忘记官网地址，可前往发布页 [点击前往](https://ifanrvpn.github.io/) 寻找最新入口。)*
+    2. 打开客户端，在 **「订阅」** 页面顶部的输入框中，粘贴您的 Clash 订阅链接地址。
+    3. 点击右侧的 **「导入」** 按钮，拉取代理配置文件。
+    
+    ??? tip "▶️ 点击展开：手动导入演示视频"
+        <video width="100%" controls referrerpolicy="no-referrer" preload="metadata">
+          <source src="https://itsmyimg.sev7.xyz/i26pic/clashv-subscribe2-client.mp4" type="video/mp4">
+        </video>
 
 ---
 
-### 设置TUN模式    
-如果要开启先点击 服务模式旁边的盾牌图标 点击INSTALLl安装，开启后会生成虚拟网卡，使所有流量都通过代理。       
-  **_Tun模式与系统代理二选一_**
+## 🚦 4. 开启系统代理与选择模式
 
-  <br>
+1. 在 Verge 左侧菜单进入 **「设置」** 界面，找到“系统代理”开关，确保其处于开启状态。
+2. 在 **「订阅」** 页面确认已选中刚导入的配置文件。
+3. 在 **「代理」** 页面选择线路节点（💡 **强烈推荐选择“规则”模式**，以实现国内流量直连、国外流量走代理的智能自动分流）。
 
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/start%20TUN.mp4" type="video/mp4">
-</video>
-<br>
-
------
-
-通过以上简单的教程，您现在已经可以使用ClashVerge来实现网络自由了。
-
-<br>
-#### ⚠️ 使用建议
-
-<table><tr><td bgcolor=violet><font face="楷书"  size=3> 订阅地址是你个人账号密码及节点的总集成，不能泄露给任何人及网络，以防止他人使用及知晓你的密码。
-建议定期手动更新或者设置成启动时自动更新订阅，即可保持与服务器同步更新。</font></td></tr></table>
-
-
-<br>
+??? tip "▶️ 点击展开：开启系统代理与选择模式视频"
+    <video width="100%" controls referrerpolicy="no-referrer" preload="metadata">
+      <source src="https://itsmyimg.sev7.xyz/i26pic/clashv-start-client.mp4" type="video/mp4">
+    </video>
 
 ---
 
+## 🚀 5. 进阶： TUN 模式 (全流量接管)
 
-你可以观看以下 YouTube 视频了解更多信息：
-(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R-TLc04SOhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uVX7JZ-csr4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+若您需要实现终端命令、桌面端大型游戏等全系统流量代理，请开启更为强大的 TUN 模式。
 
+!!! warning "TUN 模式注意事项"
+    **TUN 模式与常规系统代理建议二选一即可。** 开启 TUN 模式前，请务必先点击“服务模式”旁边的“盾牌”图标安装虚拟网卡服务。
+
+1. 点击 **「服务模式」** 旁边的盾牌图标，安装服务并确保其状态变为绿色的 **Running**。
+2. 开启 **「TUN 模式」** 开关。
+3. 开启后，系统将自动生成虚拟网卡，完美接管全系统所有流量。
+
+??? tip "▶️ 点击展开：开启 TUN 模式演示视频"
+    <video width="100%" controls referrerpolicy="no-referrer" preload="metadata">
+      <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/start%20TUN.mp4" type="video/mp4">
+    </video>
+
+---
+
+## 📺 6. 完整视频教程
+
+如果您在配置过程中遇到任何困难，可以观看下方为您准备的完整版视频教程：
+
+!!! note "YouTube 完整版配置指南"
+    <div align="center" style="display: flex; justify-content: space-between; gap: 4%;">
+      <div style="flex: 1;">
+        <a href="https://www.youtube.com/watch?v=uVX7JZ-csr4" target="_blank">
+          <img src="https://img.youtube.com/vi/uVX7JZ-csr4/0.jpg" alt="Clash Verge 基础配置教程" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        </a>
+        <br>
+        <p style="margin-top: 10px;"><strong><a href="https://www.youtube.com/watch?v=uVX7JZ-csr4" target="_blank">👉 点击观看：基础配置教程</a></strong></p>
+      </div>
+      <div style="flex: 1;">
+        <a href="https://www.youtube.com/watch?v=R-TLc04SOhU" target="_blank">
+          <img src="https://img.youtube.com/vi/R-TLc04SOhU/0.jpg" alt="Clash Verge 更新与维护教程" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        </a>
+        <br>
+        <p style="margin-top: 10px;"><strong><a href="https://www.youtube.com/watch?v=R-TLc04SOhU" target="_blank">👉 点击观看：更新与维护</a></strong></p>
+      </div>
+    </div>
+
+---
+
+## 🛡️ 7. 账号安全须知
+
+!!! danger "关键隐私提示"
+    您的**订阅链接**属于您的个人加密凭证！请务必妥善保管，**切勿在任何公开平台（如贴吧、群聊、论坛）截图或泄露**，以免造成流量超标或账号失效。

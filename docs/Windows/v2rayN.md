@@ -1,106 +1,154 @@
-# v2rayN For windows电脑使用教程
-**仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决**
-
-<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
-
-- ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
-- ✅我的 翻儿Cloud 会员没有过期     
-- ✅设备中没有开启其他VPN类软件    
-- ✅我的网络不是校园网或者公司内网      
-<br>    
-
-> ⚠️ 温馨提示     
-> 再次确认你的设备环境是否满足以上条件，检查无误后继续查看使用教程。 
 ---
-<br>
+title: v2rayN for Windows 详细使用教程与配置指南
+description: 2026年最新翻儿Cloud v2rayN for Windows 客户端下载、安装、订阅配置、路由分流及 TUN 模式开启的保姆级图文视频教程。
+keywords: [v2rayN教程, Windows科学上网, v2rayN配置, 翻儿Cloud, TUN模式, 代理设置]
+---
 
-### 客户端下载  
- 以下链接提供 zz_v2rayN-With-Core-SelfContained.7z 的安装包      
- （包含所有Core文件；独立包，不需要下载安装[Microsoft .NET 8.0 Desktop Runtime]）   
- <br>
- <strong>
- v2rayN电脑客户端国内网络下载:<a href="https://share.feijipan.com/s/YHEtgU0k">  --->点击下载</a>     
- 全平台 科 学 软 件 客户端备用下载:   --->[不止客户端下载](https://myfile.sev7.xyz)      
- 官方Github下载地址: <a href="https://github.com/2dust/v2rayN/releases/download/7.8.3/v2rayN-windows-64-SelfContained.zip">  --->点击下载</a>
- <br>
+# 💻 v2rayN For Windows 使用指南 (2026 版)
 
-更多版本请前往官方github发布页下载:
+!!! warning "开始前必读（防错检查）"
+    为了确保网络连接质量，在开始配置前，请务必确认以下环境：
 
-[https://github.com/2dust/v2rayN/releases](https://github.com/2dust/v2rayN/releases)
-
-
-</strong>
+    - ✅ 浏览器访问 [time.is](https://time.is) 检查**设备本地时间**是否与北京时间完全同步。
+    - ✅ 请卸载或彻底关闭系统内的**其他 VPN 或代理软件**（如各类加速器），避免端口冲突。
+    - ✅ 请确保您的网络环境非严格限制的**公司/校园内网**（部分内网会对自定义端口进行拦截）。
 
 ---
 
-## 解压安装
->运行客户端
+## 📥 1. 客户端下载
 
->将下载好的压缩包直接解压到电脑内某目录，打开该目录<strong><font color = Orange>「右键以管理员身份」</font></strong>运行<strong><font color = Orange>「v2rayN」</font></strong>并在弹出的提示提示框中点击<strong><font color = Orange>「是」</font></strong>继续运行。
+请根据您的网络环境，选择最适合的下载渠道：
 
-<video width="640" height="360" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/v2-install.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+=== "⚡ 国内网络直连下载 (推荐)"
 
-<br>    
+    适合无法访问外网的新用户。
+    👉 **[点击下载 v2rayN 客户端 (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2rayN)**
 
----
+=== "🐙 官方 GitHub 下载"
 
-## 导入订阅
->复制订阅地址
-
-- 浏览器登录进入 **[妖月阁官网](https://yycloud.org/) 「首页」**右下角点击  **[复制v2ray订阅地址]**，如果您忘记了妖月阁官网地址可前往地址发布页 [点击前往](https://rockwall77.github.io/) 找到最新的地址。
- - 在官网「**首页**」右下角 订阅地址栏目 点击 **「复制 V2ray 订阅」**按钮。
-
- > 配置v2rayN订阅
-
-  1. 在任务栏找到 v2rayN 主程序双击打开，依次点击「订阅分组」->「订阅分组设置」->「添加」进入订阅设置界面。
-
-  2. 备注处填写「妖月阁」或随意填写，「地址（url）」处将刚刚复制的订阅地址粘贴进去
-打开启用更新，自动更新间隔(分钟)填写3000，配置后点击「确认」完成订阅设置。
-
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/v2-%E5%AF%BC%E5%85%A5sub.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<br>
-
-### 更新订阅 与 开启系统代理
-> 更新v2rayN订阅
-
- - 在主界面再依次点击「订阅分组」->「更新全部订阅(不通过代理/通过代理)」等待v2rayN出现节点线路服务器器列表。
-
->选择节点
-
- - 在主程序「所有服务器」中选择一个带有国家地区的任意节点，按键盘回车键选择或者右键该节点「设为活动服务器（Enter）」选择。
- - 此时节点会出现不同的颜色，即表示成功选择了该节点。
-
- > 开启系统代理
-
- 1. 在电脑任务栏右下角系统托盘找到 v2rayN 图标，在图标上单击鼠标右键。
-
- 2. 依次点击 **「自动配置系统代理」**打开系统代理。
-
- 3. 依次点击 **「路由」->「v2全局(Global)」**设置全局模式。
-此时任务栏右下角系统托盘图标变成红色，即成功开启了代理模式。
- <video width="840" height="460" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/v2-start%20proxy.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<br>
-#### ⚠️ 使用建议
-
-<table><tr><td bgcolor=violet><font face="楷书"  size=3> 订阅地址是你个人账号密码及节点的总集成，不能泄露给任何人及网络，以防止他人使用及知晓你的密码。
-建议定期手动更新或者设置成启动时自动更新订阅，即可保持与服务器同步更新。</font></td></tr></table>
-
-<br>
+    适合已经拥有外网环境，希望获取官方原版的用户。
+    👉 **[点击访问 v2rayN 最新 Release 发布页](https://github.com/2dust/v2rayN/releases)**
 
 ---
 
-你可以观看以下 YouTube 视频了解更多信息：
-(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DRswmED2JZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## ⚙️ 2. 安装与启动
 
+1. 将下载的 `.7z` 或 `.zip` 压缩包解压至本地文件夹。
+   > 💡 **最佳实践：** 建议将文件夹放置在**非系统盘根目录**（例如 `D:\v2rayN`），避免产生权限问题。
+2. 进入解压后的文件夹，找到 `v2rayN.exe` 程序。
+3. **右键点击** `v2rayN.exe`，选择 **「以管理员身份运行」**。
+4. 当系统弹出用户账户控制（UAC）确认提示时，点击 **「是」**。
+
+??? tip "▶️ 点击展开：安装与启动操作演示视频"
+    <video width="100%" controls>
+      <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/v2-install.mp4" type="video/mp4">
+    </video>
+
+---
+
+## 🔗 3. 导入订阅配置
+
+### 第一步：获取 v2ray 订阅链接
+
+1. 登录 [翻儿Cloud 官方控制台](https://zifanr.net/auth/register?code=freedom)。
+2. 在控制台「首页」的右下角，找到并点击 **「复制 v2ray 订阅链接」** 按钮。
+
+### 第二步：配置并更新订阅
+
+1. 双击打开 v2rayN 主界面。
+2. 依次点击顶部菜单的 **「订阅分组」** -> **「订阅分组设置」** -> **「添加」**。
+3. 在弹出的窗口中填写：
+    * **别名 (备注)：** 填写 `翻儿Cloud`
+    * **地址 (url)：** 粘贴您刚刚复制的订阅链接
+    * **自动更新：** 勾选启用，设置更新间隔为 `1440` 分钟
+    * 设置完成后，点击 **「确认」**。
+4. 回到主界面，点击 **「订阅分组」** -> **「更新当前订阅（不通过代理）」**，系统会自动同步并拉取节点列表。
+5. **连通性测试：** 点击菜单栏的 `闪电 ⚡️` 图标进行真链接测试。在下方的节点列表中，任意选择一条有数值（表示可用）的线路，**选中并按下回车键（Enter）** 设为活动服务器。
+
+<div align="center">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/v2-connect.png" alt="v2rayN 节点连接与测试示意图" width="80%">
+</div>
+
+### 第三步：开启 v2ray 代理
+
+在电脑桌面右下角任务栏中找到 v2rayN 的蓝色小图标（图标可能隐藏在 `^` 托盘中）：
+1. **鼠标右键** 点击该图标。
+2. 选择 **「自动配置系统代理」**。
+3. 路由模式建议勾选 **「绕过大陆」**（具体模式区别请看下一节）。
+
+??? tip "▶️ 点击展开：订阅导入与开启代理演示视频"
+    <video width="100%" controls>
+      <source src="https://itsmyimg.sev7.xyz/i26pic/v2-input-sub.mp4" type="video/mp4">
+    </video>
+
+---
+
+## 🚦 4. 选择路由模式 
+
+在 v2rayN 主界面底部（或任务栏右键菜单的路由选项中），您可以看到三种核心路由模式。请根据需求选择：
+
+=== "🎯 V4-绕过大陆 (Whitelist) [强烈推荐]"
+
+    * **工作逻辑：** 仅将境外流量通过“翻儿Cloud”节点转发，国内流量自动直连。
+    * **适用场景：** 日常办公、刷剧、游戏首选。既能享受高速外网，又**绝对不会**导致微信、支付宝或国内视频 App 变慢。
+
+=== "🌐 V4-全局 (Global)"
+
+    * **工作逻辑：** 强制将电脑的所有流量（包含国内应用）全部发送至海外节点服务器。
+    * **适用场景：** 仅在需要全局切换 IP 归属地，或访问极度严格受限的海外学术资源时临时使用。
+    * **⚠️ 注意：** 开启此模式会严重拖慢国内软件的响应速度，且大量浪费您的专属流量额度。
+
+=== "⛔ V4-黑名单 (Blacklist)"
+
+    * **工作逻辑：** 仅将预设“黑名单”列表内的网站走代理，其他网站走直连。
+    * **⚠️ 注意：** 现代网页结构极其复杂，黑名单模式极易出现“漏网之鱼”，导致部分海外网站排版错乱或无法加载，**不推荐新手使用**。
+
+!!! info "翻儿Cloud 专属排障小贴士"
+    若您在开启代理后，发现某个国内网站（如部分银行 App 或政务网站）无法正常访问，请优先检查并切换至 **“V4-绕过大陆”** 模式，以确保您的 IP 环境符合国内应用的安全检测标准。
+
+??? tip "▶️ 点击展开：路由模式切换演示视频"
+    <video width="100%" controls>
+      <source src="https://itsmyimg.sev7.xyz/i26pic/v2-start-proxy.mp4" type="video/mp4">
+    </video>
+
+---
+
+## 🚀 5. 进阶：TUN 模式 (极客推荐)
+
+TUN 模式通过在操作系统内核层创建一个“虚拟网卡”，实现对系统全流量的底层接管与自动分流。相比于传统的系统代理，它更加强大且无感。
+
+* **流量透明接管**：无需再为浏览器插件、终端 CLI 或特定软件单独配置代理。
+* **协议全覆盖**：完美支持传统代理模式无法触达的应用（如终端工具、桌面端大型游戏、部分即时通讯软件等）。
+* **智能分流机制**：配合“绕过大陆”路由规则，实现“国内流量直连、境外流量加密转发”，最大限度降低延迟并节省流量。
+
+| 应用场景              | 传统模式 (系统代理)     | **TUN 虚拟网卡模式 (推荐)**      |
+| :-------------------- | :---------------------- | :------------------------------- |
+| **浏览器常规访问**    | 正常                    | 极速 (毫秒级响应)                |
+| **终端 / 命令行工具** | 极易报错 (默认不走代理) | **自动底层覆盖，完全兼容**       |
+| **PC 端大型网络游戏** | 无法代理                | **自动分流，大幅降低外网延迟**   |
+| **国内高频软件**      | 易被误代理导致加载慢    | **内核级智能分流，国内流量直连** |
+
+!!! success "如何开启 TUN 模式？"
+    在 v2rayN 客户端主界面左下角，直接点击开启 **「启用 TUN」** 开关即可。
+    *(💡 强烈建议配合 **「V4-绕过大陆 (Whitelist)」** 模式一起使用，以在保障外网性能的同时，维持国内业务的原生解析速度。)*
+
+---
+
+## 📺 6. 完整视频教程
+
+如果您在配置过程中遇到任何困难，可以观看下方为您准备的完整版视频教程：
+
+!!! note "YouTube 完整版配置指南"
+    <div align="center">
+      <a href="https://www.youtube.com/watch?v=DRswmED2JZ4" target="_blank">
+        <img src="https://img.youtube.com/vi/DRswmED2JZ4/0.jpg" alt="v2rayN 详细配置视频教程" width="70%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      </a>
+      <br>
+      <br>
+      👉 <strong><a href="https://www.youtube.com/watch?v=DRswmED2JZ4" target="_blank">点击观看：v2rayN 详细配置视频教程</a></strong>
+    </div>
+
+---
+
+!!! danger "账号隐私与安全警告"
+    您的**订阅链接**等同于您的账号密码凭证！请务必妥善保管，**切勿在任何公开平台（如贴吧、群聊、论坛）截图或泄露**。若因泄露导致流量被盗刷超标或账号被封禁，需自行承担责任。

@@ -5,3 +5,5 @@ site/
 
 # macOS
 .DS_Store
+site/
+.DS_Store
