@@ -1,10 +1,10 @@
 ---
 title: 华硕梅林固件 MerlinClash 插件配置教程 (2026版)
 description: 2026年最新翻儿Cloud针对华硕/梅林路由器 MerlinClash (小猫咪) 插件的保姆级配置教程，支持Clash订阅导入、Fake-IP加速与Netflix TV流媒体嗅探。
-keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿Cloud, 路由器翻墙, Clash订阅, 电视盒子翻墙]
+keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿Cloud, 路由器翻墙, Clash订阅, 电视盒子翻墙,Magic Catling 2]
 ---
 
-# 🐱 梅林路由器 MerlinClash 插件配置指南 (2026 版)
+# 🐱 梅林路由器 MerlinClash（Magic Catling 2） 插件配置指南 (2026 版)
 
 !!! warning "开始前必读（防错检查）"
     为了确保路由器代理服务能稳定接管您的全屋网络（尤其是电视、游戏主机等），在配置前，请务必确认：
@@ -18,14 +18,15 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 
 ## 📌 1. 插件简介与固件支持
 
-!!! info "MerlinClash (小猫咪) 插件简介"
+!!! info "MerlinClash (Magic Catling 2小猫咪) 插件简介"
     本插件专供基于 `asuswrt`、`asuswrt-merlin` 且带软件中心（KoolCenter，版本 ≥384）的路由器使用。相较于传统插件，MerlinClash 的分流规则更智能，特别适合家里有 **Apple TV、Android TV 等流媒体设备**的用户。
     
+
     * 👉 **新手扫盲：** 如何刷官改/梅改固件及安装插件？请看：[➡️ 梅林固件与 MerlinClash 刷机指南 ⬅️](https://sev7en.blog/MerlinClash-Router-tutorial)
     * 👉 **相关资源：** [魔法 MC 官方文档](https://mcreadme.gitbook.io/mc)
 
 !!! note "2026 版本说明"
-    本教程仅适用于**已成功安装 MerlinClash 插件**的用户。演示环境基于 `KoolShare` 固件 `axhnd.675x` 平台机型 `386` 版本。随着内核（如 Clash.Meta）的迭代，部分界面可能微调，请以实际显示为准。
+    本教程仅适用于**已成功安装 MerlinClash(Magic Catling 2) 插件**的用户。演示环境基于 `KoolShare` 固件 `axhnd.675x` 平台机型 `386` 版本。随着内核（如 Clash.Meta）的迭代，部分界面可能微调，请以实际显示为准。
 
 ---
 
@@ -68,7 +69,7 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 
 ---
 
-## 🚀 3. 启动 MerlinClash 与面板管理
+## 🚀 3. 启动 MerlinClash(Magic Catling 2) 与面板管理
 
 ### 1. 核心参数配置与启动
 1. 切换回 **『首页功能』** 选项页。

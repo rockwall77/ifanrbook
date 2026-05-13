@@ -1,194 +1,140 @@
-**仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决!**
-
-<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
-
-- ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
-- ✅我的 翻儿Cloud 会员没有过期     
-- ✅设备中没有开启其他VPN类软件    
-- ✅我的网络不是校园网或者公司内网      
-<br>    
-
-> ⚠️ 温馨提示     
-> 再次确认你的设备环境是否满足以上条件，检查无误后继续查看使用教程。 
 ---
-<br>
-<br>
-<br>
-
- - **macOS设备 Clash Verge客户端使用教学**
-
-Clash-verge是一款用于 MacBook 装置的跨平台代理程式工具，可协助你在浏览网页时保护你的个人隐私以及绕过地区限制,  以下是Clash Verge forMacbook设备使用教程 的详细步骤。
-
-![clashverge图标](https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/clashvergeicon.png)
-
+title: Clash Verge-Rev for macOS 详细使用教程与配置指南
+description: 2026年最新翻儿Cloud苹果电脑 MacBook M芯片/Intel芯片 Clash Verge 客户端下载、安装报错修复、订阅配置及 TUN 模式教程。
+keywords: [MacBook科学上网, Clash Verge macOS, 翻儿Cloud, 苹果电脑翻墙, xattr修复, 代理设置]
 ---
-<br>
 
-**相关链接**：<a href="https://github.com/clash-verge-rev/clash-verge-rev/releases" target="_blank">Github项目</a>  / 
-  <a href="https://clash-verge-rev.github.io/faq/macos.html" target="_blank">Clash Verge Rev Docs</a>  
+# 🍏 Clash Verge-Rev For macOS 使用指南 (2026 版)
 
-<br>
-<br>
-<br>
+!!! warning "开始前必读（防错检查）"
+    为了确保您的 Mac 设备能够顺畅科学上网，在配置前请务必确认以下环境：
 
-
+    - ✅ 浏览器访问 [time.is](https://time.is) 检查**设备本地时间**是否与北京时间完全同步。
+    - ✅ 请卸载或彻底关闭 Mac 上的**其他 VPN 或代理软件**（如 Shadowrocket、V2rayU），避免端口冲突。
+    - ✅ 请确保您的网络环境**非严格限制的公司/校园内网**。
 
 ---
 
-## **Clash verge for MacOS下载**
-（以下链接提供 Clash.Verge_2.0.3 版本苹果电脑的安装包） <br>
+## 📥 1. 客户端下载
 
-  >intel芯片下载:x64.dmg / apple M芯片下载:aarch64.dmg     
+Clash Verge 针对苹果不同的处理器芯片提供了不同的安装包，请先点击屏幕左上角  -> **关于本机**，查看您的芯片类型，并选择对应版本下载：
 
- clash verge苹果电脑客户端大陆网络下载:
- <a href="https://wwtr.lanzouw.com/b00rn7zf4d" target="_blank">**--->点击下载**</a>  
- <br> 
- 全平台 科 学 软 件 客户端备用下载:   --->[**不止客户端下载**](https://myfile.sev7.xyz)  
+!!! info "芯片版本选择指南"
+    * **Apple M 系列芯片 (M1/M2/M3/M4 等)：** 请下载带有 `aarch64` 或 `arm64` 字样的 `.dmg` 文件。
+    * **Intel 芯片：** 请下载带有 `x64`字样的 `.dmg` 文件。
+    * ⚠️ *系统要求：不支持 macOS 10 及以下操作系统，请升级 macOS 到 11 或更高版本。*
 
- <br>
-⚠️<strong><font color = red>「不支持 macos 10 操作系统，请升级 macos 到 11 或 更高版本。」</font></strong> 
- <strong>    
+=== "⚡ 国内极速下载 (推荐)"
 
----
-<br>
+    适合无法访问外网的新用户。
+    👉 **[点击下载 macOS 版 Clash Verge (国内镜像)](http://wwbie.appboz.com/b018819u6f)**
+    *(备用全平台下载站：[点击访问](https://file.pmxu.xyz))*
 
+=== "🐙 官方 GitHub 下载"
 
-## **Clash verge安装**
-
-下载完成后，双击安装包，将 Clash Verge 拖动到 Applications 文件夹中即可;     
-如果提示已损坏无法安装，请打开终端（Terminal）输入下面的命令（如果提示密码，请输入开机密码）     
-
-```
-sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app
-```
-
-![clashverge安装](https://ifanr.org/file/823f1949b0d705c1a0940.png)
-![终端命令](https://ifanr.org/file/a8000f5a7fbeea155f756.png)
-
----
-<br>
-<br>
-
-## **Clash verge导入订阅**    
-
- >手动导入Clash订阅     
-
- 1. 浏览器登录进入 <a href="https://zifanr.net/auth/register?code=freedom" target="_blank">**翻儿Cloud官网**</a> 
- 「首页」 右下角点击  [手动复制ClashX订阅地址]
-
- 如果您忘记了翻儿Cloud官网地址可前往地址发布页 <a href="https://ifanrvpn.github.io/" target="_blank">**点击前往**</a> 找到最新的官网地址。   
-
-<br>
-
-![打开翻儿Cloud官网](https://ifanr.org/file/7ce4f6dc2ef5507f4bd8c.png)
-
-<br>
-
-
-  2.返回Clashverge客户端页面;    
-  鼠标右键图标打开面板进入 【订阅】 页面，点击【新建】 创建配置文件;
-
-![导入订阅](https://ifanr.org/file/af252ce24130615403a8c.png)
-
-<br>
-
- 3.新建配置；类型选择 [Remote];     
- 名称随意填写，比如[翻儿Cloud];     
- 订阅链接框中请粘贴 从机场复制的ClashX订阅链接;     
-更新间隔自行设置，使用系统代理更新；打开。最后点击【保存】     
-
-![导入订阅](https://ifanr.org/file/56644cc0b78af5791595e.png)
-
----
-<br>
-<br>
-<br>
-<br>
-
-## **开启代理**       
-
-1,选择已导入的配置文件 “翻儿Cloud”; <br>
-打开【代理】 页面根据需求自行设置代理策略组分流规则;
-
-<br>
-
-
-![选择配置文件](https://ifanr.org/file/29727af26e035cc0aa195.png)
-
-![配置规则分流](https://ifanr.org/file/f2b4f5701d4ca015738da.png)
-
-<br>
-
- 2.进【设置】页面，把 [系统代理] 开启即可；<br>
- [代理] 页面自行选择模式;<br>
-
- - 全局模式（Global）：所有请求直接通过代理服务器。
- - 规则模式（Rule）：根据配置文件的规则进行分流，只有需要代理的网站才会经过代理服务器。
- - 直连模式（Direct）：所有请求直接发送到目的地
-
-不出意外的话，你现在已经可以访问自由网络了。比如打开 <a href="https://google.com" target="_blank">GOOGLE.COM</a>
-
-
-<br>
-
-![开启代理](https://ifanr.org/file/a3d70b783cf0ddff4e80a.png)
-
----
-<br>
-<br>
-
-
-### Tun模式(可选)
- - 代理程序会创建一张虚拟网卡，通过配置操作系统的路由将网络请求重定向到这张虚拟网卡，代理程序从虚拟网卡中读取并处理这些网络请求。
- - 开启TUN模式之前 先安装【服务模式】并开启。
- <br>
-
- ![安装服务模式](https://ifanr.org/file/2765e71ee1e5330570379.png)
- ![开启Tun模式](https://ifanr.org/file/4f671a5d439d327210be3.png)
-
- ---
- <br>
- <br>
- <br>
- <br>
-
-## **更新订阅 & 更新版本**   
-
- - 更新订阅    
-进入【订阅】页面，点击配置文件右上角半圆形箭头标识即是 [更新订阅]
-
-<br>
-
-![更新订阅](https://ifanr.org/file/e6e8865181edb849cceae.png)
-
-<br>
-<br>
-
- - 在线更新clashverge版本   <br>
-
-客户端图标的左上角出现红色字体“NEW”，表示可升级直接在本地更新系统版本; <br>
-点击“NEW”弹出提示页面，直接在此页面点击“更新” 即可。
-
-<br>
-
-![在线升级](https://ifanr.org/file/ff8cffd5be74532206f9a.png)
-
----
-<br>
-<br>
-<br>
-<br>
-
-
-⚠️ **使用建议**
-
-<table><tr><td bgcolor=violet><font face="楷书"  size=3> 订阅地址是你个人账号密码及节点的总集成，不能泄露给任何人及网络，以防止他人使用及知晓你的密码。
-建议定期手动更新或者设置成启动时自动更新订阅，即可保持与服务器同步更新。</font></td></tr></table>
-
-<br>
+    适合已经拥有外网环境，希望获取官方原版的用户。
+    👉 **[点击访问官方 Releases 最新版本下载](https://github.com/clash-verge-rev/clash-verge-rev/releases)**
 
 ---
 
-你可以观看以下 YouTube 视频了解更多信息：
-(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNq4WQ3jvog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## ⚙️ 2. 安装与“已损坏”报错修复
+
+1. 下载完成后，双击打开 `.dmg` 安装包。
+2. 将 **Clash Verge** 图标拖动到右侧的 **Applications (应用程序)** 文件夹中。
+
+!!! danger "⚠️ 常见报错修复：提示『已损坏，无法打开』"
+    由于苹果 macOS 的系统安全机制（Gatekeeper），非 App Store 下载的软件常会报错。**请按以下步骤一键修复：**
+    
+    1. 按下键盘 `Command + 空格`，搜索并打开 **「终端 (Terminal)」**。
+    2. 复制并粘贴以下命令到终端中，然后按回车：
+       ```bash
+       sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app
+       ```
+    3. 终端会提示输入 `Password:`，**请直接输入您的 Mac 开机密码**（注意：输入密码时屏幕不会显示任何字符，输入完直接按回车即可）。
+    4. 修复完成后，前往“启动台”重新打开软件即可。
+
+<div align="center">
+  <img src="https://ifanr.org/file/823f1949b0d705c1a0940.png" alt="clashverge安装" width="48%" style="display:inline-block;">
+  <img src="https://ifanr.org/file/a8000f5a7fbeea155f756.png" alt="终端命令修复" width="48%" style="display:inline-block;">
+</div>
+
+---
+
+## 🔗 3. 导入订阅配置
+
+=== "🚀 方法一：一键自动导入 (强烈推荐)"
+
+    1. 登录 **[翻儿Cloud 官网](https://zifanr.net/)**，在首页右下角点击 **「一键导入 Clash 配置文件」**。*(💡 若忘记官网地址，可前往发布页 [点击前往](https://ifanrvpn.github.io/) 寻找最新入口。)*
+    2. 浏览器会提示“是否允许打开 Clash Verge”，点击允许。
+    3. 导入后，在客户端的 **「订阅」** 栏中选中对应的配置文件（选中后背景会变色）。
+
+=== "📝 方法二：手动复制导入"
+
+    1. 浏览器登录进入 **[翻儿Cloud 官网](https://zifanr.net/)**，在「首页」右下角点击 **「手动复制 ClashX 订阅地址」**。
+       *(💡 若忘记官网地址，可前往发布页 [点击前往](https://ifanrvpn.github.io/) 寻找最新入口。)*
+    2. 打开 Mac 上的 Clash Verge，进入左侧 **「订阅 (Profiles)」** 页面。
+    3. 点击右上角的 **「新建 (New)」**。
+    4. 类型选择 **Remote**，名称填写 `翻儿Cloud`，在订阅链接框中粘贴刚才复制的地址。
+    5. 开启“使用系统代理更新”，点击 **「保存 (Save)」**。
+
+<div align="center">
+  <img src="https://ifanr.org/file/7ce4f6dc2ef5507f4bd8c.png" alt="复制订阅链接" width="80%">
+  <br><br>
+  <img src="https://ifanr.org/file/56644cc0b78af5791595e.png" alt="导入订阅保存" width="80%">
+</div>
+
+---
+
+## 🚦 4. 开启代理与模式选择
+
+1. 在左侧菜单进入 **「订阅」** 页面，**单击选中** 刚导入的 `翻儿Cloud` 配置文件。
+2. 进入 **「代理」** 页面，选择一条延迟较低的国家/地区节点。
+3. 进入 **「设置」** 页面，将 **「系统代理 (System Proxy)」** 开关打开。
+   *(💡 **强烈建议将代理模式设为“规则 (Rule)”**，实现国内网站直连、海外网站走代理的智能分流！)*
+
+<div align="center">
+  <img src="https://ifanr.org/file/29727af26e035cc0aa195.png" alt="选择配置文件" width="80%">
+  <br><br>
+  <img src="https://ifanr.org/file/f2b4f5701d4ca015738da.png" alt="配置规则分流" width="80%">
+</div>
+
+**✅ 验证成功：** 现在您可以尝试在浏览器中打开 [google.com](https://google.com)，若能正常访问，恭喜您已成功连通自由网络！
+
+---
+
+## 🚀 5. 进阶： TUN 模式 (全流量接管)
+
+若需要让 Mac 上的终端命令 (Terminal)、桌面端软件或部分游戏也走代理，请开启强大的 TUN 模式。
+
+!!! note "开启 TUN 模式步骤"
+    1. 在 **「设置」** 页面中找到“服务模式 (Service Mode)”。
+    2. 点击旁边的盾牌图标或安装按钮，输入 Mac 开机密码以授权安装底层虚拟网卡。
+    3. 安装成功后，直接打开 **「TUN 模式」** 开关即可全盘接管流量。
+
+<div align="center">
+  <img src="https://ifanr.org/file/2765e71ee1e5330570379.png" alt="安装服务模式" width="48%" style="display:inline-block;">
+  <img src="https://ifanr.org/file/4f671a5d439d327210be3.png" alt="开启Tun模式" width="48%" style="display:inline-block;">
+</div>
+
+---
+
+## 📺 6. 完整视频教程
+
+如果您在配置过程中遇到任何困难，可以观看下方为您准备的完整版视频教程：
+
+!!! note "YouTube 完整版配置指南"
+    <div align="center">
+      <a href="https://www.youtube.com/watch?v=tNq4WQ3jvog" target="_blank">
+        <img src="https://img.youtube.com/vi/tNq4WQ3jvog/0.jpg" alt="macOS Clash Verge 视频教程" width="70%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      </a>
+      <br>
+      <br>
+      👉 <strong><a href="https://www.youtube.com/watch?v=tNq4WQ3jvog" target="_blank">点击观看：macOS Clash Verge 详细配置视频教程</a></strong>
+    </div>
+
+---
+
+## 🛡️ 7. 账号安全须知
+
+!!! danger "关键隐私提示"
+    您的**订阅链接**属于您的个人加密凭证！请务必妥善保管，**切勿在任何公开平台（如贴吧、群聊、论坛）截图或泄露**，以免造成流量超标或账号失效。
