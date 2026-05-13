@@ -72,14 +72,16 @@ nav:
       - shadowrocket更新订阅教程: iPhone/iosgxdy.md
       - Stash 使用教程: iPhone/Stash.md
       - Stash 更新订阅教程: iPhone/Stash-update.md
-  - 📘 安卓手机:
+  - 📱 安卓手机:
       - Clash MetaForAndroid使用教程: Android/Clash-meta.md
       - Clash.Meta更新订阅教程: Android/Clashgengxindy.md
       - v2rayNG For Android使用教程: Android/v2rayNG.md
       - v2rayNG 更新订阅教程: Android/v2rayng-update.md
       - Surfboard 使用教程: Android/Surfboard.md
       - Surfboard 更新订阅教程: Android/Surfboard-updata.md
-  - 📚 MacBook苹果电脑:
+  - 🖥️ MacBook苹果电脑:
+      - V2rayN MacOS教程: MacBook/v2rayn-macos.md
+      - V2rayN MacOS更新订阅教程: MacBook/v2rayn-macos-update.md
       - clashX Pro使用教程: MacBook/clashXPro.md
       - clashX Pro更新订阅教程: MacBook/clashXPro-update.md
       - clashverge使用教程: MacBook/clashverge.md
@@ -89,7 +91,10 @@ nav:
       - Clash Verge更新订阅教程: Windows/gengxindingyue.md
       - v2rayN 使用教程: Windows/v2rayN.md
       - v2rayN 更新订阅教程: Windows/v2rayn-update.md
-  -   📶 路由器插件配置:
+  - 📶 路由器-梅林插件配置:
       - Helloworld 科学上网教程: Router/helloworld.md
       - MerlinClash 小猫咪教程: Router/Merlinclash.md
+  - 🛜 软路由-Wrt系统配置:
+      - OpenClash 插件: Wrouter/openclash.md
+      - PassWall 插件: Wrouter/PassWall.md
 
