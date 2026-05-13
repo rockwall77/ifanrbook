@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="翻儿Cloud 官方使用文档与快速访问指南">
+        <meta name="description" content="详细讲解苹果 iPhone/iPad 如何更新 Stash 订阅节点，设置自动更新间隔，排查国内网络阻断等常见连接故障。">
       
       
         <meta name="author" content="翻儿Cloud">
@@ -29,7 +29,7 @@
     
     
       
-        <title>Stash 更新订阅教程 - 翻儿Cloud 官方使用文档</title>
+        <title>苹果 Stash 订阅更新与故障排除 (2026版) - 翻儿Cloud 官方使用文档</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#stash-2026" class="md-skip">
           跳转至
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Stash 更新订阅教程
+              苹果 Stash 订阅更新与故障排除 (2026版)
             
           </span>
         </div>
@@ -570,6 +570,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -612,6 +614,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -620,10 +624,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        更新订阅
+        📡 1. 常规更新订阅教程
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ 2. 故障排除：更新失败如何操作？
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📺 3. 完整视频教程
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ 4. 账号安全须知
       
     </span>
   </a>
@@ -1518,6 +1555,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1526,10 +1565,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        更新订阅
+        📡 1. 常规更新订阅教程
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ 2. 故障排除：更新失败如何操作？
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📺 3. 完整视频教程
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ 4. 账号安全须知
       
     </span>
   </a>
@@ -1553,49 +1625,96 @@
 
 
 
-  <h1>Stash 更新订阅教程</h1>
-
-<table><tr><td bgcolor=FFB6C1><font face="楷书" size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
-
+<h1 id="stash-2026">🔄 Stash 订阅更新与故障排查 (2026 版)<a class="headerlink" href="#stash-2026" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">开始前必读（防错检查）</p>
+<p>为了确保节点更新顺利，请确认以下环境：</p>
 <ul>
-<li>✅浏览器访问 time.is 检查设备时间是否与北京时间同步</li>
-<li>✅我的 翻儿Cloud 会员没有过期     </li>
-<li>✅设备中没有开启其他VPN类软件    </li>
-<li>✅我的网络不是校园网或者公司内网 </li>
+<li>✅ 浏览器访问 <a href="https://time.is">time.is</a> 检查<strong>手机本地时间</strong>是否与北京时间完全同步。</li>
+<li>✅ 请确保当前网络未被公司/校园严苛内网限制。</li>
+<li>✅ 请确保您的 <strong>翻儿Cloud</strong> 会员套餐处于有效期内。</li>
 </ul>
-<p><br>  </p>
-<p>⚠️ 温馨提示     </p>
-<blockquote>
-<p>再次确认你的设备环境是否满足以上条件，检查无误后继续查看使用教程。 
-<br></p>
-</blockquote>
+</div>
 <hr />
-<p><br>
-<br></p>
-<h2 id="_1"><strong>更新订阅</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li>进 <strong>设置</strong>页面, 更多设置；</li>
-<li><strong>更新间隔</strong>（小时单位）填写 24或12； <strong>自动更新</strong> 开启即可 ~</li>
-<li>当科学上网出现障碍或有非常多的超时线路时，请更新订阅获取最新的节点信息。</li>
-</ul>
-<p><a href="https://image.dooo.ng/c/2024/09/17/66e947241e5fd.gif"><img alt="Stash-update sub.gif" src="../../assets/external/image.dooo.ng/c/2024/09/17/66e947241e5fd.gif"></a></p>
+<h2 id="1">📡 1. 常规更新订阅教程<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>翻儿Cloud 会定期维护与扩容服务器节点。当科学上网出现障碍或有非常多的线路显示超时，请务必及时更新您的配置文件以获取最新节点信息。</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">设置自动更新 (强烈推荐)</label><label for="__tabbed_1_2">手动强制更新</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>在 Stash 客户端底栏，点击进入 <strong>「设置」</strong> 页面。</li>
+<li>滑动找到 <strong>「更多设置」</strong>。</li>
+<li>将 <strong>「更新间隔」</strong> 设置为 <code>24</code> 或 <code>12</code>（小时单位）。</li>
+<li>确保开启 <strong>「自动更新」</strong> 开关。</li>
+<li>设置完毕后，只要打开 App，系统会在后台为您自动拉取最新线路，一劳永逸！</li>
+</ol>
+<details class="tip">
+<summary>▶️ 点击展开：设置自动更新演示 (GIF)</summary>
+<p><div align="center">
+  <img src="../../assets/external/image.dooo.ng/c/2024/09/17/66e947241e5fd.gif" alt="设置自动更新演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div></p>
+</details>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>在 Stash 首页底栏，进入 <strong>「设置」 -&gt; 「配置文件」</strong>。</li>
+<li>找到您正在使用的 <code>翻儿Cloud</code> 配置文件。</li>
+<li><strong>向左滑动</strong>该配置文件的名称。</li>
+<li>在弹出的菜单中点击 <strong>「更新」</strong>。</li>
+</ol>
+<details class="tip">
+<summary>▶️ 点击展开：左滑更新配置演示 (GIF)</summary>
+<p><div align="center">
+  <img src="../../assets/external/image.dooo.ng/c/2024/09/16/66e80cc783098.gif" alt="左滑更新演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div></p>
+</details>
+</div>
+</div>
+</div>
 <hr />
-<p><br></p>
-<p>⚠️ <strong>使用建议</strong></p>
-<table><tr><td bgcolor=violet><font face="楷书"  size=3> 订阅地址是你个人账号密码及节点的总集成，不能泄露给任何人及网络，以防止他人使用及知晓你的密码。
-建议定期手动更新或者设置成启动时自动更新订阅，即可保持与服务器同步更新。</font></td></tr></table>
-<p><br>
-<br></p>
+<h2 id="2">🛠️ 2. 故障排除：更新失败如何操作？<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>由于国内网络防火墙（GFW）的干扰，有时会出现点击更新后毫无反应，或提示“网络超时”、“解析失败”的情况。这通常是因为<strong>订阅域名被大陆网络临时阻断了</strong>。</p>
+<div class="admonition tip">
+<p class="admonition-title">终极解决办法：走代理强制更新</p>
+<p>如果出现更新失败，请执行以下操作：</p>
+<ol>
+<li>在 Stash 首页，随便选择一个<strong>当前还能连得上</strong>的旧节点。</li>
+<li>点击首页顶部的 <strong>「启动」</strong> 按钮，确保手机已经处于“翻墙”状态（状态栏出现 VPN 图标）。</li>
+<li>在翻墙状态下，再次前往配置文件列表执行“向左滑 -&gt; 更新”操作。</li>
+<li>此时更新请求将通过海外节点加密传输，100% 可以绕过网络阻断，成功拉取最新配置！</li>
+</ol>
+</div>
 <hr />
-<p>你可以观看以下 YouTube 视频了解更多信息：
-(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8yr6yd9apk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="3">📺 3. 完整视频教程<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>如果您在日常使用中遇到困难，可以观看下方视频回顾操作步骤：</p>
+<div class="admonition note">
+<p class="admonition-title">YouTube 完整版图文指南</p>
+<p><div align="center">
+  <a href="https://www.youtube.com/watch?v=Y8yr6yd9apk" target="_blank" rel="noopener">
+    <img src="../../assets/external/img.youtube.com/vi/Y8yr6yd9apk/0.jpg" alt="苹果 Stash 视频教程" width="70%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </a>
+  <br>
+  <br>
+  👉 <strong><a href="https://www.youtube.com/watch?v=Y8yr6yd9apk" target="_blank" rel="noopener">点击观看：苹果 Stash 进阶配置与维护视频教程</a></strong>
+</div></p>
+</div>
+<hr />
+<h2 id="4">🛡️ 4. 账号安全须知<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">严禁泄露订阅地址</p>
+<p>您的配置文件是您个人账号与流量凭证的总集成！为了保护您的财产安全：
+* <strong>绝对不要</strong>将订阅链接或带有配置节点信息的界面截图，发送到任何微信群、QQ群等公开平台。
+* 一旦被他人盗用，您的<strong>翻儿Cloud 流量将被迅速耗尽</strong>，且可能会触发后台滥用防封机制。</p>
+</div>
 
 
 
 
 
 
+
+  
+  
 
 
 
