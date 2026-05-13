@@ -1,5 +1,7 @@
 site_name:      翻儿Cloud 官方使用文档 
-site_url:       https://example.com # 请替换为您的网站域名
+site_url:       https://ifanrvpn.github.io # 请替换为您的网站域名
+site_description: 翻儿Cloud 官方使用文档与快速访问指南
+site_author: 翻儿Cloud
 
 theme:
   name: material
@@ -64,6 +66,19 @@ markdown_extensions:
   - pymdownx.details
   - toc:
       permalink: true
+  - pymdownx.superfences # 必备：支持代码块嵌套，以及 Mermaid 流程图
+  - pymdownx.tabbed: # 必备：支持“选项卡”功能，非常适合展示多端教程（比如 Mac/Win 切换）
+      alternate_style: true
+  - pymdownx.emoji: # 支持输入 :smile: 显示表情，并支持自定义图标
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight: # 必备：代码高亮显示
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite # 支持行内代码高亮
+  - attr_list # 支持给图片或文字加自定义样式（如居中、设置图片大小）
+  - md_in_html # 允许在 HTML 标签内写 Markdown
 
 nav:
   - 📖 翻儿Cloud 官方地址: index.md
