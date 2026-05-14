@@ -1,153 +1,138 @@
-**仔 细 阅 读 教 程 大部分问题 都 会 自 行 解 决!**
-
-<table><tr><td bgcolor=FFB6C1><font face="楷书"  size=4> 继续使用翻儿Cloud服务前，请务必查看是否满足以下条件。</font></td></tr></table>
-
-- ✅浏览器访问 time.is 检查设备时间是否与北京时间同步    
-- ✅我的 翻儿Cloud 会员没有过期     
-- ✅设备中没有开启其他VPN类软件    
-- ✅我的网络不是校园网或者公司内网      
-<br>    
-
-> ⚠️ 温馨提示     
-> 再次确认你的设备环境是否满足以上条件，检查无误后继续查看使用教程。 
 ---
-<br>
-
-  ClashX Pro是MacOS系统即苹果电脑系统下的代理软件客户端，是代理工具Clash在MacOS系统的图形客户端，功能强大且支持多种代理协议。
-
-### ClashX Pro下载     <br>  
-
- 目前GitHub仓库地址均已删库且不再更新维护,但不影响继续使用!!可在本页面下载备份最新版
-
+title: ClashX Pro for macOS 详细使用教程与配置指南
+description: 2026年最新翻儿Cloud苹果电脑 Mac 版 ClashX Pro 客户端下载、安装报错解决、一键订阅配置、增强模式及自动分流保姆级图文教程。
+keywords: [MacBook科学上网, ClashX Pro, 翻儿Cloud, 苹果电脑翻墙, 增强模式, Mac代理设置]
 ---
-  - 以下链接提供 Clash_X.Pro.v1.118.1 的安装包      
-  「**该客户端仅支持Mac OS 10以上系统，确保你的系统版本高于10.0**」   
- <br>
- <strong>
- clashX Pro苹果电脑客户端国内网络下载:<a href="https://wwv.lanzouh.com/ih7AX21t1tjc" "MacOS系统最好用的代理">  --->点击下载</a>      
- <br> 
- clashX Pro苹果电脑客户端国内网络备用下载:<a href="https://www.miaofile.com/s/GBrNu1" "MacOS系统最好用的代理">  --->点击下载</a>  
- <br>
- <video width="640" height="360" controls>
-  <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/MacOS10.0%2B.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<strong><font color = Orange>「自行检查Macbook Air版本是不是10.0以上」</font></strong>
-<br>     
 
----
-<br>
-<br>
+# 🐱 ClashX Pro 苹果电脑macOS 使用指南 (2026 版)
 
-## clashX Pro安装     
- - 把 ClashX.app 拖拽到Applications文件夹当中，就算完成了安装工作，如下图所示。
- - 在启动台里面找到ClashX Pro，然后打开它，如果系统提示不安全，无法打开，我们需要打开一个开启所有来源的开关，具体看教程 [开启所有来源教程](https://jingyan.baidu.com/article/0320e2c12083275a87507bab.html)
- - 打开启动台，找到软件图标，单击启动软件。首次打开的时候会有安全提示，点击【打开】继续
+!!! warning "开始前必读（防错检查）"
+    为了确保您的 Mac 设备能够顺畅连通外网，在配置前请务必确认以下环境：
 
-<br>
-
-
-  <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/ClashX%20install.gif" loop="true" autoplay="true">
-  <br>     
-
-  ---
-
-<br>
-<br>
-
-
-### ClashX Pro导入订阅    
-
- >方式一, 一键自动导入     
-
- 1. 浏览器登录进入 **[翻儿Cloud官网](https://zifanr.net/auth/register?code=freedom) 「首页」**右下角点击  **[手动复制ClashX订阅地址]**，如果您忘记了翻儿Cloud官网地址可前往地址发布页 [点击前往](https://ifanrvpn.github.io/) 找到最新的官网地址。
- 2. 点击「一键导入 Clash(X) 配置文件」按钮 后会自动提示跳转到 ClashX Pro客户端，根据提示点击「打开ClashXPro」，此时ClashX客户端中会出现并已选择导入的配置文件。
-
-<br>
-
-  <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/import%20sub1.gif" loop="true" autoplay="true">
-
-<br>
-
-
-
-<br>
-
-> 方式二 手动下载导入     <br>
-
-1. 浏览器登录进入 **[翻儿Cloud官网](https://zifanr.net/auth/register?code=freedom) 「首页」**右下角点击  **[手动复制ClashX订阅地址]**，如果您忘记了翻儿Cloud官网地址可前往地址发布页 [点击前往](https://ifanrvpn.github.io/) 找到最新的官网地址。
-
-  2. 点击状态栏中的小猫咪软件图标，打开主菜单-> 配置 -> 托管配置 -> 管理->添加 配置文件
-  3. URL处粘贴刚网站上复制的ClashX订阅地址，在 Config Name 填写配置文件名称，比如 翻儿Cloud 点击确定即可完成订阅的添加.
-
-<br>
-
-
-<img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/import%20sub-2.gif" loop="true" autoplay="true">
-
- <br>     
-
-  ---
-
-<br>
-<br>
-
-## ClashX Pro配置策略组
- - 点击ClashX Pro图标，主菜单往下滑进去【控制台】便可根据自己的需求配置策略组走指定的地区节点。
-
-<br>
-
-
-<img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/policy%20Groups.gif" loop="true" autoplay="true">
-
-<br>     
-
-  ---
-
-<br>
-<br>
-
-## 设置为系统代理 & 增强模式
- >更新订阅     <br>
-
-
-
-1. 点击ClashX Pro猫咪图标，打开主菜单-->配置-->托管配置-->更新/便可更新订阅~~
-（勾选自动更新，设置更新间隔72小时）   
-
- 2. 打开【主菜单】 ->勾选【设置为系统代理】以及【增强模式】即启动ClashX Pro代理，现在可以开始上网冲浪了。
-
-
-<img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/Start%20proxy.gif" loop="true" autoplay="true">
-
-<br>
-<strong><font color = Orange>「如果默认的分流模式您无法正常使用，选择尝试启用GLOBAL【全局模式】」</font></strong>
-<br>     
-
-  ---
-
-<br>
-<br>
-
-### 出站模式    <br>
-点击ClashX pro小猫咪图标，打开【主菜单】 ->【出站模式】，即可选择出站模式，软件一共有四种出站模式，分别是全局连接、规则判断、脚本模式、直接连接。
-
-全局连接：所有请求直接发往代理服务器      
-规则判断：所有请求根据配置文件规则进行分流      
-脚本模式：所有请求根据脚本文件规则进行分流     
-直连连接：所有请求直接发往目的地，即不使用代理     
-
-
-<br>
-#### ⚠️ 使用建议
-
-<table><tr><td bgcolor=violet><font face="楷书"  size=3> 订阅地址是你个人账号密码及节点的总集成，不能泄露给任何人及网络，以防止他人使用及知晓你的密码。
-建议定期手动更新或者设置成启动时自动更新订阅，即可保持与服务器同步更新。</font></td></tr></table>
-
-<br>
+    - ✅ 浏览器访问 [time.is](https://time.is) 检查**电脑本地时间**是否与北京时间完全同步。
+    - ✅ 请确保您的 **翻儿Cloud** 会员套餐未过期且流量充足。
+    - ✅ 请彻底关闭 Mac 上的**其他 VPN 或代理软件**，避免底层网络冲突。
+    - ✅ 请确保您的网络环境**非严格限制的公司/校园内网**。
 
 ---
 
-你可以观看以下 YouTube 视频了解更多信息：
-(如果你在中国大陆地区访问 YouTube 受限，需要使用 VPN 或代理服务。)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lUFQA3OooBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 📥 1. 客户端下载与系统要求
+
+!!! info "ClashX Pro 现状说明"
+    ClashX Pro 是 MacOS 系统下非常经典的图形客户端。目前官方 GitHub 仓库已删库不再更新，但**本站提供的最终稳定版备份（v1.118.1）依然可以完美运行！**
+    * ⚠️ **系统要求：** 该客户端仅支持 **macOS 10 及以上** 系统。
+
+=== "⚡ 国内极速下载 (推荐)"
+
+    适合无法访问外网的新用户。
+    👉 **[点击下载 ClashX Pro 客户端 (国内镜像)](http://wwbgd.appbco.com/ih7AX21t1tjc)**
+    👉 **[备用下载分流通道](https://mega.nz/file/RbwQXRAb#HDOWklKB2fMivd46Lbg9qKGG5yhLb0_V4xTKAwzdxFQ)**
+
+??? tip "▶️ 点击展开：如何检查 Mac 系统版本？(视频)"
+    <div align="center">
+      <video width="80%" controls referrerpolicy="no-referrer" preload="metadata" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <source src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/MacOS10.0%2B.mp4" type="video/mp4">
+      </video>
+    </div>
+
+---
+
+## ⚙️ 2. 软件安装与安全授权
+
+1. 下载完成后，双击打开安装包，将 `ClashX.app` 拖拽到右侧的 `Applications` 文件夹中即完成安装。
+2. 打开「启动台 (Launchpad)」，找到软件图标单击启动。
+3. 首次打开时系统会有安全提示，请点击 **「打开」** 继续。
+
+!!! danger "高频报错：提示“无法打开”或“不安全”怎么办？"
+    由于苹果系统的安全限制，可能会拦截第三方来源软件。请参考此教程开启“任何来源”权限：
+    👉 **[开启 Mac 任何来源权限图文教程](https://jingyan.baidu.com/article/0320e2c12083275a87507bab.html)**
+
+??? tip "▶️ 点击展开：安装过程演示 (GIF)"
+    <div align="center">
+      <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/ClashX%20install.gif" alt="ClashX安装演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+
+---
+
+## 🔗 3. 导入订阅配置
+
+=== "🚀 方式一：一键自动导入 (强烈推荐)"
+
+    1. 使用 Safari 浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
+       *(💡 **防失联提示：** 若官网无法访问，请前往永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新可用入口。)*
+    2. 在官网「首页」右下角，点击 **「一键导入 Clash(X) 配置文件」** 按钮。
+    3. 浏览器会提示是否打开 ClashX Pro，点击允许。
+    4. 此时 ClashX 客户端中会自动拉取并选中您的专属配置文件！
+    
+    ??? tip "▶️ 点击展开：一键导入演示 (GIF)"
+        <div align="center">
+          <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/import%20sub1.gif" alt="一键导入演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        </div>
+
+=== "📝 方式二：手动复制导入"
+
+    1. 登录进入 **[翻儿Cloud 官网](https://zifanr.net/)**，在「首页」右下角点击 **「手动复制 ClashX 订阅地址」**。
+    2. 点击 Mac 屏幕顶部状态栏的**小猫咪软件图标**。
+    3. 依次选择 **「配置」 -> 「托管配置」 -> 「管理」 -> 点击「添加」**。
+    4. **URL 处**粘贴刚才复制的链接，**Config Name** 填写 `翻儿Cloud`，点击确定即可。
+    
+    ??? tip "▶️ 点击展开：手动导入演示 (GIF)"
+        <div align="center">
+          <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/import%20sub-2.gif" alt="手动导入演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        </div>
+
+---
+
+## 🚦 4. 开启代理与增强模式 (核心)
+
+### 第一步：配置策略组 (选择节点)
+点击顶部状态栏的 ClashX Pro 图标，在主菜单往下滑找到 **「控制台」** 区域，在这里您可以根据需求，手动选择您想要连接的国家地区节点。
+
+??? tip "▶️ 点击展开：策略组选择演示 (GIF)"
+    <div align="center">
+      <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/policy%20Groups.gif" alt="策略组演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+
+### 第二步：开启系统代理与增强模式
+1. 点击顶部状态栏的 ClashX Pro 图标展开主菜单。
+2. 勾选 **「设置为系统代理」**。
+3. 勾选 **「增强模式 (Enhanced Mode)」**（*相当于 TUN 虚拟网卡模式，可接管全电脑流量，强烈推荐开启*）。
+4. **✅ 连接成功：** 此时小猫咪图标会变成深色，您现在可以开始畅游自由网络了！
+
+??? tip "▶️ 点击展开：开启系统代理演示 (GIF)"
+    <div align="center">
+      <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/Start%20proxy.gif" alt="开启代理演示" width="60%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+
+---
+
+## ⚙️ 5. 出站模式科普
+
+点击顶部菜单的 **「出站模式」**，您可以调整软件的工作逻辑：
+
+* **规则判断 (Rule) [强烈推荐]：** 智能分流。国内网站直连不耗流量，海外网站自动走代理。
+* **全局连接 (Global)：** 所有网络请求强制发往海外代理节点。如果规则模式下遇到某些特殊网站打不开，可尝试切换此模式。
+* **直接连接 (Direct)：** 所有请求直连，相当于关闭 VPN。
+
+---
+
+## 📺 6. 完整视频教程
+
+如果您在配置过程中遇到任何困难，可以观看下方为您准备的完整版视频教程：
+
+!!! note "YouTube 完整版图文指南"
+    <div align="center">
+      <a href="https://www.youtube.com/watch?v=lUFQA3OooBk" target="_blank">
+        <img src="https://img.youtube.com/vi/lUFQA3OooBk/0.jpg" alt="Mac ClashX Pro 视频教程" width="70%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      </a>
+      <br>
+      <br>
+      👉 <strong><a href="https://www.youtube.com/watch?v=lUFQA3OooBk" target="_blank">点击观看：macOS ClashX Pro 详细配置视频教程</a></strong>
+    </div>
+
+---
+
+## 🛡️ 7. 账号安全须知
+
+!!! danger "关键隐私提示"
+    您的**订阅链接**等同于您的账号密码总集成！请务必妥善保管，**切勿在任何公开平台（如贴吧、群聊、小红书等）截图或泄露**，以免造成流量被盗刷超标或账号失效。
