@@ -12,6 +12,7 @@ theme:
     - toc.follow
     - navigation.instant
     - navigation.tabs
+    - content.code.copy
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

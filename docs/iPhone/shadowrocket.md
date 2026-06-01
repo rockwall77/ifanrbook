@@ -1,7 +1,7 @@
 ---
 title: Shadowrocket for iOS 详细使用教程与配置指南
-description: 2026年最新翻儿Cloud苹果手机端 Shadowrocket (小火箭) 客户端美区ID下载、一键订阅配置、代理开启及进阶懒人配置保姆级教程。
-keywords: [苹果手机科学上网, Shadowrocket, 小火箭VPN, iOS翻墙, 翻儿Cloud, 美区苹果ID, 小火箭配置]
+description: 2026年最新翻儿Cloud苹果手机端 Shadowrocket (小火箭) 客户端美区ID下载、一键订阅配置、代理开启及自定义分组自动切换保姆级教程。
+keywords: [苹果手机科学上网, Shadowrocket, 小火箭VPN, iOS翻墙, 翻儿Cloud, 小火箭分组, 自动切换低延迟, 小火箭配置]
 ---
 
 # 🚀 Shadowrocket 苹果手机/iPad 使用指南 (2026 版)
@@ -86,23 +86,66 @@ keywords: [苹果手机科学上网, Shadowrocket, 小火箭VPN, iOS翻墙, 翻�
 3. 在节点列表中，选中一个带有测速延迟的节点（选中后前方会出现小黄点）。
 4. 点击最上方的 **“未连接”** 旁边的开关，将其打开。
 5. **首次连接**会弹出“添加 VPN 配置”的安全提示，请点击 **「允许 (Allow)」**，并根据提示输入您的 iPhone 锁屏密码（或进行 Face ID 解锁）。
-6. **✅ 连接成功：** 此时手机屏幕右上角（或下拉控制中心）会出现 `VPN` 图标，代表科学上网成功开启！
+6. **连接成功：** 此时手机屏幕右上角（或下拉控制中心）会出现 `VPN` 图标，代表科学上网成功开启！**「连通性测试」**选择节点后面有延迟数值的线路即可。
 
-??? tip "▶️ 点击展开：启动代理演示 (GIF)"
+??? tip "▶️ 点击展开：启动代理与自动更新设置演示"
     <div align="center">
-      <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/start%20shdow.gif" alt="启动代理演示" width="50%" referrerpolicy="no-referrer" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="https://cdn.jsdelivr.net/gh/Dacui777/mypicgo@main/guide/start%20shdow.gif" alt="启动代理演示" width="48%" referrerpolicy="no-referrer" style="display:inline-block; vertical-align:top; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <video width="48%" controls referrerpolicy="no-referrer" preload="metadata" style="display:inline-block; vertical-align:top; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <source src="https://itsmyimg.sev7.xyz/i26pic/shadowrocket-teaching.MP4" type="video/mp4">
+      </video>
     </div>
 
 !!! success "自动化维护小贴士"
-    建议进入小火箭底部的 **「设置」 -> 「订阅」**，将 **“打开时更新”** 和 **“自动后台更新”** 全部开启。这样客户端就能智能保持与官方服务器的同步更新！
+    建议进入小火箭底部的 **「设置」 -> 「订阅」**，将 **“打开时更新”** 和 **“自动后台更新”** 全部开启，间隔设置 24小时（每天自动更新订阅）。这样客户端就能智能保持与官方服务器的同步更新！
 
 ---
 
-## 📺 4. 进阶玩法与完整视频教程
+## 📺 4. 进阶神技
 
-想学习如何配置更高级的策略组？如何根据延迟自动切换低延迟丝滑线路？如何指定固定地区访问特定域名？强烈建议观看下方的高阶视频教程！
+### ✨ 进阶神技：设置分组（自动测速切换低延迟节点）
+
+为了实现“永不掉线、始终连接最快节点”的丝滑体验，您可以利用小火箭自带的“分组”功能。设置完成后，软件会自动在您划定的地区里挑选延迟最低的节点进行连接，再也不用频繁手动换节点了！
+
+**快速配置步骤：**
+
+1. 在 Shadowrocket 首页找到并点击 **「全局路由」**。    
+2. 点击进入 **「分组」**，然后选择 **「添加分组」**。    
+3. 给分组起个名字（例如 `自选`）。     
+4. **筛选节点：** 您可以手动勾选喜欢的节点；或者直接使用正则表达式筛选地区（例如输入 `香港|台湾|日本`，中间用竖线 `|` 隔开，你也可以单独添加某个地区作为分组，系统就会自动将这三个地区的线路组合成一个小组）。    
+5. 筛选完毕后点击右上角 **「完成」** 并启用该分组即可。   
+
+??? tip "▶️ 点击展开：小火箭设置分组实操演示 (视频)"
+    <div align="center">
+      <video width="60%" controls referrerpolicy="no-referrer" preload="metadata" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <source src="https://itsmyimg.sev7.xyz/i26pic/shadowrocket-teach.mp4" type="video/mp4">
+      </video>
+      <br><br>
+      <i>(💡 若视频缓冲较慢，可 <a href="https://itsmyimg.sev7.xyz/i26pic/shadowrocket-teach.mp4" target="_blank">点击此处直接播放</a>)</i>
+    </div>
+
+
+
+### 🎬 更多高阶玩法完整版教程（懒人配置）
+想了解如何指定地区线路访问特定域名等更多极客玩法？推荐使用下方的**懒人配置规则**，并强烈建议观看下方的高阶视频教程配合食用！ 
+
+**shadowrocket 懒人配置链接：**     
+
+```text
+https://lowertop.github.io/Shadowrocket/lazy_group.conf
+```
+
+或
+
+```text
+https://raw.githubusercontent.com/LOWERTOP/Shadowrocket/main/lazy_group.conf
+```
+
+🏆 **鸣谢与开源地址：**
+本懒人配置规则由开源作者  **[LOWERTOP](https://github.com/LOWERTOP/)** 维护提供，感谢作者的无私奉献！
 
 !!! note "YouTube 完整版配置指南"
+
     <div align="center">
       <a href="https://www.youtube.com/watch?v=0hP9CrPZ8U4" target="_blank">
         <img src="https://img.youtube.com/vi/0hP9CrPZ8U4/0.jpg" alt="苹果 Shadowrocket 视频教程" width="70%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
