@@ -5,7 +5,7 @@
 ## 🚀 快速获取访问路径
 
 !!! tip "点击访问**永久发布页**"
-    <big>**<a href="https://ifanrvpn.github.io" target="_blank">https://ifanrvpn.github.io</a>**</big>
+    <big>**<a href="https://get.imfaner.com" target="_blank">https://get.imfaner.com</a>**</big>
 
     大陆用户请 **CTRL+D** 收藏本页面，以便随时查看最新官方入口。    
     **请务必收藏本页！** 中国防火墙会持续更新，官方地址亦会随之变更。收藏此永久发布页，确保您能第一时间获取最新有效访问地址，谨防受骗。
