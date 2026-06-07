@@ -41,7 +41,7 @@ keywords: [梅林路由器, 科学上网插件, Helloworld, asuswrt-merlin, 翻�
 ### 第二步：获取 翻儿cloud v2ray订阅
 1. 浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/auth/register?code=freedom)**。
 2. 在「首页」右下角的便捷导入区，点击 **「复制 ssr 通用订阅链接」** 或 **「复制 V2ray 订阅链接」**。
-   *(💡 **防失联提示：** 若中国大陆地区网络波动导致官网无法访问，请牢记并访问我们的永久发布页：**[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新官方备用地址。)*
+   *(💡 **防失联提示：** 若中国大陆地区网络波动导致官网无法访问，请牢记并访问我们的永久发布页：**[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新官方备用地址。)*
 
 <div align="center">
   <img src="https://ifanr.org/file/addc96808df4c347a37f3.png" alt="复制SSR订阅链接" width="80%">

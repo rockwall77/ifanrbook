@@ -46,7 +46,7 @@ keywords: [安卓科学上网, v2rayNG, 安卓翻墙, 翻儿Cloud, v2rayNG配置
 
 ### 第一步：获取专属订阅链接
 1. 使用手机浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
-   *(💡 **防失联提示：** 若官网被墙无法访问，请牢记并前往永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新可用入口。)*
+   *(💡 **防失联提示：** 若官网被墙无法访问，请牢记并前往永久发布页 **[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新可用入口。)*
 2. 在官网「首页」右下角，找到订阅地址栏目，点击 **「复制 V2ray 订阅」** 按钮。
 
 ### 第二步：导入到 v2rayNG

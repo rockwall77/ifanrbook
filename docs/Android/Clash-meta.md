@@ -46,7 +46,7 @@ keywords: [安卓科学上网, Clash Meta, CMFA, 翻儿Cloud, 安卓翻墙, 代�
 === "🚀 方式一：一键自动导入 (强烈推荐)"
 
     1. 使用手机浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
-       *(💡 **防失联提示：** 若官网无法访问，请前往永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新入口。)*
+       *(💡 **防失联提示：** 若官网无法访问，请前往永久发布页 **[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新入口。)*
     2. 在官网「首页」右下角，点击 **「一键导入 Clash(X) 配置文件」** 按钮。
     3. 手机会自动唤醒跳转至 Clash.Meta 客户端。
     4. 在弹出的页面中，**名称**填写 `翻儿Cloud`，**自动更新 (分钟)** 设置为 `1440`。

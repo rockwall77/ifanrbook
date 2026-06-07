@@ -59,7 +59,7 @@ keywords: [MacBook科学上网, ClashX Pro, 翻儿Cloud, 苹果电脑翻墙, 增
 === "🚀 方式一：一键自动导入 (强烈推荐)"
 
     1. 使用 Safari 浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
-       *(💡 **防失联提示：** 若官网无法访问，请前往永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新可用入口。)*
+       *(💡 **防失联提示：** 若官网无法访问，请前往永久发布页 **[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新可用入口。)*
     2. 在官网「首页」右下角，点击 **「一键导入 Clash(X) 配置文件」** 按钮。
     3. 浏览器会提示是否打开 ClashX Pro，点击允许。
     4. 此时 ClashX 客户端中会自动拉取并选中您的专属配置文件！

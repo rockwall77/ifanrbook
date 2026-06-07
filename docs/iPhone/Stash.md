@@ -44,7 +44,7 @@ Stash（完美兼容 Clash 规则）在中国大陆区 App Store 未上架且为
 === "🚀 方式一：一键自动导入 (强烈推荐)"
 
     1. 使用手机 Safari 浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
-       *(💡 **防失联提示：** 若官网被墙无法访问，请前往永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新可用入口。)*
+       *(💡 **防失联提示：** 若官网被墙无法访问，请前往永久发布页 **[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新可用入口。)*
     2. 在官网「首页」右下角，点击 **「一键导入 Stash 配置文件」** 按钮。
     3. 浏览器会弹窗提示“在 Stash 中打开？”，请点击 **「打开」**。
     4. 此时会自动跳转至 Stash 客户端，节点列表即刻加载完毕！

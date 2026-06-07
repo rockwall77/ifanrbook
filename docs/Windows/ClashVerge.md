@@ -60,7 +60,7 @@ keywords: [Clash Verge, Clash Verge-Rev, Windows科学上网, 翻儿Cloud, TUN�
 === "📝 方法二：手动复制导入"
 
     1. 浏览器登录进入 **[翻儿Cloud 官网](https://zifanr.net/)**，在「首页」右下角点击 **「手动复制 ClashX 订阅地址」**。
-       *(💡 若忘记官网地址，可前往发布页 [点击前往](https://ifanrvpn.github.io/) 寻找最新入口。)*
+       *(💡 若忘记官网地址，可前往发布页 [点击前往](https://get.imfaner.com/) 寻找最新入口。)*
     2. 打开客户端，在 **「订阅」** 页面顶部的输入框中，粘贴您的 Clash 订阅链接地址。
     3. 点击右侧的 **「导入」** 按钮，拉取代理配置文件。
     

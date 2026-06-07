@@ -47,7 +47,7 @@ Surfboard（俗称“冲浪板”）是安卓端极为优秀的一款代理软�
 
 ### 第一步：获取专属订阅链接
 1. 使用手机浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
-   *(💡 **防失联提示：** 若官网被墙无法访问，请前往永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新可用入口。)*
+   *(💡 **防失联提示：** 若官网被墙无法访问，请前往永久发布页 **[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新可用入口。)*
 2. 在官网「首页」右下角，找到订阅地址栏目，点击 **「复制 Surfboard 订阅链接」** 按钮。
 
 ??? tip "▶️ 点击展开：复制订阅链接演示 (GIF)"

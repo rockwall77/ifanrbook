@@ -42,7 +42,7 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 ### 第二步：获取 翻儿cloud Clash订阅
 1. 浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/auth/register?code=freedom)**。
 2. 在「首页」右下角的便捷导入区，点击 **「手动复制 ClashX 订阅」**（或复制 Clash 订阅链接）。
-   *(💡 **防失联提示：** 若遇到官网被墙无法访问，请务必收藏并访问我们的永久发布页：**[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新可用地址。)*
+   *(💡 **防失联提示：** 若遇到官网被墙无法访问，请务必收藏并访问我们的永久发布页：**[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新可用地址。)*
 
 <div align="center">
   <img src="https://ifanr.org/file/7ce4f6dc2ef5507f4bd8c.png" alt="复制Clash订阅" width="80%">

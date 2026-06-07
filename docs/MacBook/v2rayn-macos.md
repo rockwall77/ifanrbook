@@ -68,7 +68,7 @@ keywords: [MacBook科学上网, v2rayN Mac版, 翻儿Cloud, 苹果电脑翻墙, 
 有了客户端后，我们需要把翻儿Cloud的服务器节点导入到软件中：
 
 1. 使用浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/)**。
-   *(💡 **防失联提示：** 若官网被墙无法访问，请牢记并访问永久发布页 **[https://ifanrvpn.github.io/](https://ifanrvpn.github.io/)** 获取最新入口。)*
+   *(💡 **防失联提示：** 若官网被墙无法访问，请牢记并访问永久发布页 **[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新入口。)*
 2. 在控制台「首页」的右下角，找到并点击 **「复制 V2ray 订阅链接」** 按钮。
 3. 打开 Mac 上的 v2rayN 主界面，点击顶部工具栏的 **「➕ 加号」** 按钮。
 4. 在弹出的窗口中填写信息：
