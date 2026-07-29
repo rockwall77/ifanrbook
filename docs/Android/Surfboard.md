@@ -24,7 +24,7 @@ Surfboard（俗称“冲浪板”）是安卓端极为优秀的一款代理软�
 
     适合无法访问外网的新用户。
     👉 **[点击下载 Surfboard 客户端 (国内镜像)](http://wwbie.appboz.com/b0187zb8bi)**
-    *(备用全平台下载站：[点击访问](https://file.pmxu.xyz/))*
+    *(备用全平台下载站（推荐）：[点击访问](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6/surfboard))*
 
 === "🐙 官方 GitHub / 谷歌商店 下载"
 

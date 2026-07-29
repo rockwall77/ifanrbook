@@ -24,7 +24,7 @@ keywords: [安卓科学上网, v2rayNG, 安卓翻墙, 翻儿Cloud, v2rayNG配置
 
     适合无法访问外网的新用户。
     👉 **[点击下载 v2rayNG 客户端 (国内镜像)](http://wwbie.appboz.com/b0187zb89g)**
-    *(备用全平台下载站：[点击访问](https://file.pmxu.xyz/))*
+    *(备用全平台下载站（推荐）：[点击访问](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6/v2rayNG))*
 
 === "🐙 官方 GitHub 下载"
 

@@ -28,7 +28,7 @@ Clash Verge 针对苹果不同的处理器芯片提供了不同的安装包，�
 
     适合无法访问外网的新用户。
     👉 **[点击下载 macOS 版 Clash Verge (国内镜像)](http://wwbie.appboz.com/b018819u6f)**
-    *(备用全平台下载站：[点击访问](https://file.pmxu.xyz))*
+    *(备用全平台下载站（推荐）：[点击访问](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6/clash-verge-rev))*
 
 === "🐙 官方 GitHub 下载"
 

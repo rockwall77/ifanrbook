@@ -22,7 +22,7 @@ keywords: [Clash Verge, Clash Verge-Rev, Windows科学上网, 翻儿Cloud, TUN�
 === "⚡ 国内极速下载 (推荐)"
 
     适合无法访问外网的新用户。
-    👉 **[点击下载 Clash Verge-Rev (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/Clash-Verge)**
+    👉 **[点击下载 Clash Verge-Rev (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6/clash-verge-rev)**
 
 === "🐙 官方 GitHub 下载"
 

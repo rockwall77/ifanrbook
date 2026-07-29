@@ -22,7 +22,7 @@ keywords: [v2rayN教程, Windows科学上网, v2rayN配置, 翻儿Cloud, TUN模�
 === "⚡ 国内网络直连下载 (推荐)"
 
     适合无法访问外网的新用户。
-    👉 **[点击下载 v2rayN 客户端 (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2rayN)**
+    👉 **[点击下载 v2rayN 客户端 (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6/v2rayN)**
 
 === "🐙 官方 GitHub 下载"
 

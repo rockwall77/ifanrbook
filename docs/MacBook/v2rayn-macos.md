@@ -34,7 +34,7 @@ keywords: [MacBook科学上网, v2rayN Mac版, 翻儿Cloud, 苹果电脑翻墙, 
 === "🍎 苹果 M 系列芯片"
 
     **适用机型：** 搭载 M1 / M2 / M3 / M4 芯片的 MacBook 或 Mac mini。
-    适合无法访问外网的新用户。👉 **[点击下载 v2rayN 客户端 (国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2rayN)**
+    适合无法访问外网的新用户。👉 **[点击下载 v2rayN 客户端 (推荐国内镜像)](https://file.pmxu.xyz/%E8%BD%AF%E4%BB%B6/v2rayN)**
     👉 **[点击前往 GitHub 官方下载页](https://github.com/2dust/v2rayN/releases)**
     *(💡 请在下载列表中找到文件名带有 **`arm64`** 的 `.dmg` 或 `.zip` 文件下载)*
 
