@@ -40,17 +40,18 @@ keywords: [梅林路由器, 科学上网插件, Helloworld, asuswrt-merlin, 翻�
 
 ### 第二步：获取 翻儿cloud v2ray订阅
 1. 浏览器访问并登录 **[翻儿Cloud 官方控制台](https://zifanr.net/auth/register?code=freedom)**。
-2. 在「首页」右下角的便捷导入区，点击 **「复制 ssr 通用订阅链接」** 或 **「复制 V2ray 订阅链接」**。
+2. 在「首页」右下角的便捷导入区，点击 **「复制 V2ray 订阅链接」**。
    *(💡 **防失联提示：** 若中国大陆地区网络波动导致官网无法访问，请牢记并访问我们的永久发布页：**[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新官方备用地址。)*
 
 <div align="center">
-  <img src="https://ifanr.org/file/addc96808df4c347a37f3.png" alt="复制SSR订阅链接" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/v2-sub.png" alt="复制SSR订阅链接" width="90%">
 </div>
+
 
 ### 第三步：在路由器中导入订阅
 1. 登录路由器后台，打开「科学上网」插件，在顶部导航栏选择 **『订阅节点』**。
 2. 进入下方 **『更新管理』** 页面。
-3. 在 **“订阅地址管理”** 框内，粘贴刚刚从翻儿Cloud复制的专属订阅链接。
+3. 在 **“订阅地址管理”** 框内，粘贴刚刚从翻儿Cloud复制的专属v2rayN订阅链接。
 
 <div align="center">
   <img src="https://ifanr.org/file/d13b56a30ea50fb9b8f69.png" alt="导入订阅地址" width="80%">
