@@ -45,14 +45,15 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
    *(💡 **防失联提示：** 若遇到官网被墙无法访问，请务必收藏并访问我们的永久发布页：**[https://get.imfaner.com/](https://get.imfaner.com/)** 获取最新可用地址。)*
 
 <div align="center">
-  <img src="https://itsmyimg.sev7.xyz/i26pic/ifanr.png" alt="复制Clash订阅" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/ifanr.png" alt="复制Clash订阅" width="90%">
 </div>
+
 
 
 ### 第三步：在路由器中下载 YAML 配置
 1. 从路由器左下角的软件中心进入 `Merlin Clash/Magic Catling 2` 插件。
 
-2. 切换到 **『订阅管理』** 选项卡。⚠️ 
+2. 切换到 **『订阅管理』** 选项卡。
 
 3. 在右侧文本框中**粘贴**您刚才复制的翻儿Cloud专属Clash订阅链接。
 
@@ -66,10 +67,11 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 5. 点击右侧的 **『开始订阅』** 按钮，开始拉取节点。
 
 <div align="center">
-  <img src="https://itsmyimg.sev7.xyz/i26pic/mc2.png" alt="MerlinClash插件页面" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/mc2.png" alt="MerlinClash插件页面" width="90%">
   <br><br>
-  <img src="https://itsmyimg.sev7.xyz/i26pic/sub-succeed.png" alt="导入Clash订阅" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/sub-succeed.png" alt="导入Clash订阅" width="90%">
 </div>
+
 
 
 > ⏳ **温馨提示：** 初次订阅时，路由器需要下载并在本地解析大量节点数据，耗时可能较长，请耐心观察下方“实时日志”直到提示 **“ ✅恭喜!!订阅成功!!! ”**。
@@ -93,18 +95,20 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
    
 
 <div align="center">
-  <img src="https://itsmyimg.sev7.xyz/i26pic/turn-on.png" alt="开启Merlinclash开关" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/turn-on.png" alt="开启Merlinclash开关" width="100%">
   <br><br>
-  <img src="https://itsmyimg.sev7.xyz/i26pic/MC2-turn-on.png" alt="配置MerlinClash" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/MC2-turn-on.png" alt="配置MerlinClash" width="100%">
 </div>
+
 
 
 ### 2. Magic Catling 2开启状态解读：
 成功启动后，界面展示的 **“插件版本号，Mihome内核版本，运行状态：mihome进程运行正常....”** 则表示 **已成功开启代理！**
 
 <div align="center">
-  <img src="https://itsmyimg.sev7.xyz/i26pic/zashboard.png" alt="MC插件状态" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/zashboard.png" alt="MC插件状态" width="100%">
 </div>
+
 
 
 ### 3. 进入 ZashBoard 面板管理策略组分流规则与节点组
@@ -112,10 +116,11 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 点击界面上的 **『ZashBoard面板』** 可视化地完成代理模式切换和节点选择（与电脑端的 Clash Verge 体验完全一致）
 
 <div align="center">
-  <img src="https://itsmyimg.sev7.xyz/i26pic/pc.png" alt="zashboard管理面板" width="80%" 
+  <img src="https://itsmyimg.sev7.xyz/i26pic/zashboard-update.png" alt="zashboard管理面板" width="100%" 
   <br><br>
-  <img src="https://itsmyimg.sev7.xyz/i26pic/zashboard-update.png" alt="配置MerlinClash" width="80%">   
+  <img src="https://itsmyimg.sev7.xyz/i26pic/pc.png" alt="配置MerlinClash" width="100%">   
     </div>
+
 
 
 
@@ -139,14 +144,17 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 3. *点击 **“闪电⚡️图标”** 按钮延迟测试节点的连通性。*
 
 <div align="center">
-  <img src="https://itsmyimg.sev7.xyz/i26pic/zashboard-update-testing.png" alt="手动更新订阅" width="80%">
+  <img src="https://itsmyimg.sev7.xyz/i26pic/zashboard-update-testing.png" alt="手动更新订阅" width="100%">
 </div>
+
 
 ---
 
 ## 📥5. 附加功能：Geo数据库、白名单规则与备份MC2配置
 
- ##### 1.Geo 数据库（GeoIP / GeoSite 数据库）
+ #####   
+
+#### 1.Geo 数据库（GeoIP / GeoSite 数据库）
 
 - 建议每个月手动点击更新一次，或者在配置好后更新一次，保证分流更加精准。
 
@@ -159,27 +167,53 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 - Magic Catling 2 订阅配置好了，点击下载备份便于下次更新MC2插件版本直接恢复备份！
 
     <div align="center">
-      <img src="https://itsmyimg.sev7.xyz/i26pic/Geo.png" alt="GeoIP-GeoSite 数据库" width="80%">
+      <img src="https://itsmyimg.sev7.xyz/i26pic/Geo.png" alt="GeoIP-GeoSite 数据库" width="100%">
       <br><br>
-      <img src="https://itsmyimg.sev7.xyz/i26pic/beifen.png" alt="备份MC2配置" width="80%">
+      <img src="https://itsmyimg.sev7.xyz/i26pic/beifen.png" alt="备份MC2配置" width="100%">
     </div>
     
+    ----
+    
+    
+    
     **💡 原理解析：**     
-    GeoSite（域名数据库）：记录了世界上所有网站的网址（域名）分别属于哪个国家或哪个服务商（比如哪些是 Google、Netflix，哪些是淘宝、B站）。
-    GeoIP（IP数据库）：记录了世界上所有的网络地址（IP）分别物理定位在哪个国家。
-    大陆 IP 白名单规则：这是一份**“国内绿色通道名单”**。
-    它专门收集了中国大陆境内所有网络运营商（电信、联通、移动等）所拥有的网络地址（IP）。只要你在访问名单上的这些国内地址，路由器就会命令流量直接连接，绝对不走代理通道。
+    
+    - GeoSite（域名数据库）：记录了世界上所有网站的网址（域名）分别属于哪个国家或哪个服务商（比如哪些是 Google、Netflix，哪些是淘宝、B站）                       
+    
+    - GeoIP（IP数据库）：记录了世界上所有的网络地址（IP）分别物理定位在哪个国家。
+    
+    - 大陆 IP 白名单规则：这是一份**“国内绿色通道名单”**           
+      它专门收集了中国大陆境内所有网络运营商（电信、联通、移动等）所拥有的网络地址（IP）。        只要你在访问名单上的这些国内地址，路由器就会命令流量直接连接，绝对不走代理通道。             
 
 
 
-> **💡 温馨提示：**
+> **⚠️  温馨提示：**
 > 每次刚安装完插件，或者觉得最近有些平时能上的国内网站变卡、国外网站打不开时，都可以先来这个页面把这两项手动更新一下，通常能解决 80% 的分流异常问题。
 
 ---
 
 
 
-## 🎬 6. 视频操作教程
+
+
+### 🔖  6.高阶玩法-MerlinClash懒人配置教程（可选）
+
+如何指定地区线路访问特定域名，多订阅链接共用配置，添加自建节点等更多极客玩法？
+
+推荐使用下方的**MerlinClash懒人配置**，并强烈建议观看下方的高阶视频教程配合食用！ 
+
+-  [MerlinClash懒人配置](https://raw.githubusercontent.com/sev7enshare/Clash-Config/de1e54b2ed2756a5539cfc4d11cfeacb759123df/MerlinClash%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/KK-Fake-ip.yaml)
+- [MerlinClash 懒人配置](https://raw.githubusercontent.com/sev7enshare/Clash-Config/refs/heads/main/MerlinClash%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/NewMC2.yaml)
+
+
+
+---
+
+
+
+
+
+## 🎬 7. 视频操作教程
 
 如果您在配置过程中遇到困难，可以观看下方详细的视频教程：
 
@@ -195,7 +229,7 @@ keywords: [梅林路由器, MerlinClash, 小猫咪插件, asuswrt-merlin, 翻儿
 
 ---
 
-## 🛡️ 7. 账号隐私警告
+## 🛡️ 8. 账号隐私警告
 
 !!! danger "严禁泄露订阅地址"
     您的订阅地址是您个人账号与流量凭证的总集成！为了保护您的财产安全：
